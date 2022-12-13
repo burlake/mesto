@@ -1,0 +1,30 @@
+.description__paragraph {
+  margin: 0 0 0 148px;
+  padding: 0;
+  max-width: 690px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .description__paragraph {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .description__paragraph {
+    margin-left: 24px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .description__paragraph {
+    margin-left: 16px;
+    max-width: 288px;
+  }
+}
