@@ -27,10 +27,41 @@
   }
 }
 
-.avatar__photo {
+.avatar{
+    display: grid;
+}
+
+.profile__photo {
     border-radius: 100px;
     max-width: 168.75px;
     min-height: 127.5px;
-    left: 177.5px;
-    top: 155.25px;
+}
+
+.profile-info{
+    display: flex;
+}
+
+.profile__name{
+    max-width: 294px;
+    min-height: 39px;
+    padding-top: 25px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.profile__description{
+    max-width: 336px;
+    min-height: 18px;
+    padding-top: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
 }
