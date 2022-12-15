@@ -28,5 +28,9 @@
 }
 
 .avatar__photo {
-    border-radius: 100px; 
+    border-radius: 100px;
+    max-width: 168.75px;
+    min-height: 127.5px;
+    left: 177.5px;
+    top: 155.25px;
 }
