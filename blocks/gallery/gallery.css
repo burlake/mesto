@@ -4,8 +4,8 @@
   position: relative;
   max-width: 1200px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
-  grid-template-rows: repeat(3, 213px);
+  grid-template-columns: repeat(auto-fit, minmax(361px, max-content));
+  grid-template-rows: repeat(3, 282px);
   justify-content: center;
   justify-items: center;
   gap: 18px;
