@@ -1,4 +1,5 @@
 .gallery__cards {
+  position: relative;
   min-height: 361px;
   max-width: 282px;
   object-fit: contain;
