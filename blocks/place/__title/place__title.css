@@ -1,11 +1,12 @@
 .place__title {
   margin: 0;
-  padding: 25px 0 32px 21;
-  max-width: 460px;
-  font-size: 72px;
+  padding: 0;
+  max-width: 246px;
+  font-style: normal;
+  font-size: 24px;
   font-weight: 900;
-  line-height: 76px;
-  color: #ffffff;
+  line-height: 29px;
+  color: #000000;
 }
 
 @media screen and (max-width: 1024px) {
