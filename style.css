@@ -83,3 +83,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+.gallery__img{
+  width: 100%;
+  max-width: 282px;
+  min-height: 282px;
+
+}
