@@ -79,7 +79,7 @@ background: url(./images/Rectangle.png);
 background-repeat: no-repeat;
 background-origin: content-box;
 background-position: top;
-
+object-fit: contain;
 }
 
 .add-button__vector{
