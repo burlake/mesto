@@ -114,6 +114,14 @@ padding:37px 10px 0 25px;
   min-height: 120px;
 }
 
+@media screen and (max-width: 320px) {
+  .profile {
+    max-width: 282px;
+    min-height: 286px;
+    grid-auto-flow: row;
+  }
+}
+
 .add-button__plus{
 
   max-width: 150px;
