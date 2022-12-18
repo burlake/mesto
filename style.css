@@ -92,6 +92,35 @@ padding:37px 10px 0 25px;
   padding: 7px 6px 0 8px;
 }
 
+
+
+.add-button__plus{
+
+  max-width: 150px;
+  min-height: 50px;
+background: url(./images/Rectangle.png);
+background-repeat: no-repeat;
+background-origin: content-box;
+background-position: top;
+object-fit: contain;
+padding:37px 10px 0 25px;
+}
+
+.plus{
+  max-width: 22px;
+  min-height: 2px;
+  padding: 7px 6px 0 8px;
+}
+
+
+
+
+
+
+
+
+
+
 .gallery__cards {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
