@@ -63,7 +63,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    color: #FFFFFF;
+    color: #FFFFFF; 
 }
 
 .gallery__cards {
@@ -81,6 +81,7 @@
   padding: 0 20px 30px 21px;
   background: #FFFFFF;
   border-radius: 0 0 10px 10px;
+  border: #000000;
   display: flex;
   justify-content: space-between;
 }
