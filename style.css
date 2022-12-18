@@ -29,7 +29,7 @@
 
 .avatar{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .profile__photo {
