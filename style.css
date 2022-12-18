@@ -143,10 +143,18 @@ padding: 52px 73px 0 66px;
 
 .plus{
   max-width: 22px;
-  min-height: 2px;
+  min-height: 22px;
   padding: 13px 0 0 0;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+  .profile {
+    max-width: 17px;
+    min-height: 17px;
+    padding: 50%;
+  }
 }
 
 
