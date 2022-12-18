@@ -33,9 +33,10 @@
 }
 
 .profile__photo {
+  /*
     border-radius: 100px;
     max-width: 168.75px;
-    min-height: 127.5px;
+    min-height: 127.5px;*/
 }
 
 .profile-info{
