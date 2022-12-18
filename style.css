@@ -97,6 +97,7 @@
   min-height: 19px;
   max-width: 22px;
   object-fit: contain;
+  padding-top: 5px;
 }
 
 /*
@@ -110,6 +111,7 @@
   background-image: url(./images/like-active.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position: bottom;
   background-origin: border-box;
   object-fit: contain;
   min-height: 19px;
