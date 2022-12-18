@@ -7,6 +7,12 @@
   flex-direction: column;
 }
 
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 28px 0 0 27px;
+  }
+}
+
 .logo{
   max-width: 142px;
   min-height: 33px;
@@ -14,9 +20,7 @@
 
 @media screen and (max-width: 320px) {
   .logo {
-    padding-top: 28px;
     max-width: 104px;
-    line-height: 46px;
   }
 }
 
