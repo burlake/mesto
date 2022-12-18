@@ -59,6 +59,13 @@
     padding-left: 45px;
 }
 
+@media screen and (max-width: 320px) {
+  .profile-info {
+    flex-direction: row;
+    padding-left: 19px;
+  }
+}
+
 .profile__name{
   margin: 0;
   padding: 0;
