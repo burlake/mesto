@@ -154,7 +154,7 @@ padding:37px 10px 0 25px;
 
 .profile__edit{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 
