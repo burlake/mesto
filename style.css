@@ -20,17 +20,9 @@
 }
 
 .avatar{
-  padding-top: 36px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
-
-@media screen and (max-width: 604px) {
-  .avatar {
-    flex-direction: column;
-
-  }
 
 .profile__photo {
     border-radius: 100%;
@@ -99,10 +91,6 @@ padding:37px 10px 0 25px;
   max-width: 880px;
   min-height: 120px;
 }
-@media screen and (max-width: 604px) {
-  .profile {
-    flex-direction: column;
-  }
 
 .add-button__plus{
 
