@@ -12,6 +12,14 @@
   min-height: 33px;
 }
 
+@media screen and (max-width: 320px) {
+  .logo {
+    padding-top: 28px;
+    max-width: 104px;
+    line-height: 46px;
+  }
+}
+
 .logo__line{
   padding-top: 41px;
   max-width: 880px;
