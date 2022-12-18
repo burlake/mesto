@@ -72,7 +72,7 @@
 }
 
 .add-button{
-  padding-right: 20px;
+  padding-right: 0 7px 0 7px;
   max-width: 24px;
   min-height: 24px;
 background: url(./images/Rectangle.png);
