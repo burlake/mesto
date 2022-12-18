@@ -72,7 +72,7 @@
 }
 
 .add-button{
-  padding-right: 0 7px 0 7px;
+
   max-width: 24px;
   min-height: 24px;
 background: url(./images/Rectangle.png);
@@ -85,6 +85,7 @@ object-fit: contain;
 .add-button__vector{
   max-width: 10px;
   min-height: 10px;
+  padding: 7px 10px 0 7px;
 }
 
 .gallery__cards {
