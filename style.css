@@ -83,7 +83,6 @@ background-repeat: no-repeat;
 .add-button__vector{
   max-width: 10px;
   min-height: 10px;
-  justify-content: flex-start;
 }
 
 .gallery__cards {
