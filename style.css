@@ -101,6 +101,7 @@
 .like:hover{
   background-color: #000000;
   color: #FFFFFF;
+  overflow: hidden;
 }
 
 .place__title {
