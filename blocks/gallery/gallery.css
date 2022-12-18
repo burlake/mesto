@@ -11,7 +11,7 @@
   z-index: 2;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 620px) {
   .gallery {
     max-width: 282px;
     gap: 20px;
