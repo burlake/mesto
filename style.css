@@ -95,6 +95,8 @@ padding:37px 10px 0 25px;
 .profile{
   display: flex;
   justify-content: space-between;
+  max-width: 880px;
+  min-height: 120px;
 }
 
 .add-button__plus{
