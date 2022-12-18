@@ -52,17 +52,13 @@
 }
 
 .profile__photo {
+  margin: 0 auto;
     border-radius: 100%;
     max-width: 168.75px;
     min-height: 127.5px;
     padding: 0 23px 5px 23px;
 }
 
-@media screen and (max-width: 320px) {
-  .profile__photo {
-    justify-content: center;
-  }
-}
 
 .profile-info{
     display: flex;
