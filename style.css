@@ -3,7 +3,7 @@
   padding: 45px 0 41px 200px;
   max-width: 1184px;
   display: grid;
-  grid-auto-flow: row;
+  grid-auto-flow: column;
   min-height: 100%;
 }
 
