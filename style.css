@@ -105,14 +105,17 @@
   transition: 1s linear 0.5s;
 }
 
-.like-active:hover{
+.like:active{
   background-image: url(./images/like-active.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: bottom;
   background-origin: border-box;
-  transition: 1s linear 0.5s;
+  object-fit: contain;
+  min-height: 19px;
+  max-width: 22px;
 }
+
 
 .place__title {
   margin: 0;
