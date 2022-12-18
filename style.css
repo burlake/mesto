@@ -22,6 +22,7 @@
 .avatar{
     display: flex;
     flex-direction: row;
+    padding-top: 36px;
 }
 
 .profile__photo {
