@@ -30,17 +30,20 @@
 .avatar{
     display: flex;
     flex-direction: row;
+    padding-left: 177px
 }
 
 .profile__photo {
     border-radius: 100px;
     max-width: 168.75px;
     min-height: 127.5px;
+    padding: 0 23px 0 23px;
 }
 
 .profile-info{
     display: flex;
     flex-direction: column;
+    padding-left: 45px;
 }
 
 .profile__name{
