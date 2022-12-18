@@ -3,7 +3,8 @@
   padding: 0;
   max-width: 1200px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(361px, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(282px, max-content));
+  grid-template-rows: repeat(2, 361px);
   justify-content: center;
   justify-items: center;
   grid-row-gap: 20px;
@@ -14,8 +15,8 @@
 @media screen and (max-width: 1024px) {
   .gallery {
     max-width: 928px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
-    grid-template-rows: repeat(4, 225px);
+    grid-template-columns: repeat(auto-fit, minmax(282px, max-content));
+    grid-template-rows: repeat(2, 361px);
     gap: 14px;
     padding-bottom: 12px;
     min-width: calc((100% - 14px) / 3);
