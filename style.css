@@ -77,6 +77,7 @@
   min-height: 24px;
 background: url(./images/Rectangle.png);
 background-repeat: no-repeat;
+background-origin: content-box;
 
 }
 
