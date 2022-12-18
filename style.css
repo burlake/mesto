@@ -136,7 +136,7 @@ padding: 52px 73px 0 66px;
 }
 
 @media screen and (max-width: 320px) {
-  .profile {
+  .add-button__plus {
     max-width: 282px;
   }
 }
@@ -150,7 +150,7 @@ padding: 52px 73px 0 66px;
 }
 
 @media screen and (max-width: 320px) {
-  .profile {
+  .plus {
     max-width: 17px;
     min-height: 17px;
   }
