@@ -30,7 +30,7 @@
 .avatar{
     display: flex;
     flex-direction: row;
-    padding-left: 177px
+    margin-left: 177px
 }
 
 .profile__photo {
