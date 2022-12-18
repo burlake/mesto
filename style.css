@@ -130,11 +130,17 @@ background-position: top;
 object-fit: contain;
 padding:37px 10px 0 25px;
 }
+.edit-button:hover{
+  opacity: .6;
+}
 
 .pen{
   max-width: 10px;
   min-height: 10px;
   padding: 7px 6px 0 8px;
+}
+.pen:hover{
+  opacity: .6;
 }
 
 .profile{
@@ -172,6 +178,9 @@ background-position: top;
 object-fit: contain;
 padding: 52px 73px 0 66px;
 }
+.add-button__plus:hover{
+  opacity: .6;
+}
 
 @media screen and (max-width: 320px) {
   .add-button__plus {
@@ -185,6 +194,10 @@ padding: 52px 73px 0 66px;
   padding: 13px 0 0 0;
   justify-content: center;
   align-items: center;
+}
+
+.plus:hover{
+  opacity: .6;
 }
 
 @media screen and (max-width: 320px) {
