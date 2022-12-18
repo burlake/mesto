@@ -116,7 +116,7 @@
   max-width: 22px;
 
 }
-
+/*
 .like_1:hover{
   background-image: url(./images/like-active.png);
   background-size: 100%;
@@ -128,6 +128,7 @@
   max-width: 22px;
 
 }
+*/
 
 .place__title {
   margin: 0;
