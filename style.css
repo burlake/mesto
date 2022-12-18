@@ -99,7 +99,7 @@
 }
 
 @media screen and (max-width: 604px) {
-  .profile  {
+  .profile {
     flex-direction: column;
   }
 
