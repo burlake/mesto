@@ -92,6 +92,8 @@ padding:37px 10px 0 25px;
 }
 
 .profile{
+  margin: 0 auto;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   max-width: 880px;
