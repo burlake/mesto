@@ -2,9 +2,8 @@
   margin: 0 auto;
   padding: 45px 0 41px 200px;
   max-width: 1184px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
+  grid-auto-flow: row;
   min-height: 100%;
 }
 
