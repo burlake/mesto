@@ -153,6 +153,8 @@ padding: 52px 73px 0 66px;
   .plus {
     max-width: 17px;
     min-height: 17px;
+    justify-content: center;
+    align-items: center;
   }
 }
 
