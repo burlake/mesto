@@ -71,6 +71,15 @@
     color: #FFFFFF; 
 }
 
+.add-button{
+border: #FFFFFF solid 1px;
+}
+
+.add-button__vector{
+  max-width: 10px;
+  min-height: 10px;
+}
+
 .gallery__cards {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
