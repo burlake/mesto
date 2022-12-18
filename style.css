@@ -80,13 +80,13 @@ background-repeat: no-repeat;
 background-origin: content-box;
 background-position: top;
 object-fit: contain;
-padding:44px 10px 0 25px;
+padding:37px 10px 0 25px;
 }
 
 .add-button__vector{
   max-width: 10px;
   min-height: 10px;
-  padding: 44px 10px 0 25px;
+  padding: 7px 6px 0 8px;
 }
 
 .gallery__cards {
