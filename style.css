@@ -34,10 +34,10 @@
 }
 
 .profile__photo {
-    border-radius: 100px;
+    border-radius: 100%;
     max-width: 168.75px;
     min-height: 127.5px;
-    padding: 0 23px 0 23px;
+    padding: 0 23px 5px 23px;
 }
 
 .profile-info{
