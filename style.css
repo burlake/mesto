@@ -72,6 +72,8 @@
 }
 
 .add-button{
+  max-width: 24px;
+  min-height: 24px;
 border: #FFFFFF solid 1px;
 }
 
