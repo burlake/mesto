@@ -76,6 +76,8 @@
   min-height: 24px;
 background: url(./images/Rectangle.png);
 background-position: center;
+background-repeat: no-repeat;
+
 }
 
 .add-button__vector{
