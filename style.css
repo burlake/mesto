@@ -29,6 +29,7 @@
 
 .avatar{
     display: grid;
+    grid-auto-flow: column;
 }
 
 .profile__photo {
