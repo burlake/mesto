@@ -34,7 +34,7 @@
 
 @media screen and (max-width: 320px) {
   .logo__line {
-    padding: 31px 0 0 -27px;
+    padding-top: 31px;
     max-width: 320px;
   }
 }
