@@ -74,7 +74,7 @@
     color: #FFFFFF; 
 }
 
-.add-button{
+.edit-button{
 
   max-width: 24px;
   min-height: 24px;
@@ -86,13 +86,16 @@ object-fit: contain;
 padding:37px 10px 0 25px;
 }
 
-.add-button__vector{
+.pen{
   max-width: 10px;
   min-height: 10px;
   padding: 7px 6px 0 8px;
 }
 
-
+.profile{
+  display: flex;
+  justify-content: space-between;
+}
 
 .add-button__plus{
 
