@@ -1,6 +1,6 @@
 .header {
   margin: 0 auto;
-  padding: 45px 0 41px 200px;
+  padding: 45px 0 0 200px;
   max-width: 1184px;
   min-height: 100%;
   display: flex;
@@ -13,6 +13,7 @@
 }
 
 .logo__line{
+  padding-top: 41px;
   max-width: 880px;
   min-height: 0px;
 
