@@ -39,6 +39,7 @@
 
 .profile-info{
     display: flex;
+    flex-direction: column;
 }
 
 .profile__name{
