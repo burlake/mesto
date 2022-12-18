@@ -92,10 +92,9 @@ text-align: center;
 
 .profile__description{
   margin: 0;
-  padding: 0;
     max-width: 336px;
     min-height: 18px;
-    padding-top: 16px;
+    padding: 16px 0 0 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
