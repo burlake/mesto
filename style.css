@@ -58,6 +58,12 @@
     padding: 0 23px 5px 23px;
 }
 
+@media screen and (max-width: 320px) {
+  .profile__photo {
+    justify-content: center;
+  }
+}
+
 .profile-info{
     display: flex;
     flex-direction: column;
