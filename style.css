@@ -100,13 +100,6 @@
   padding-top: 8px;
 }
 
-/*
-.like:hover{
-  background-color: #000000;
-  color: #FFFFFF;
-  overflow: hidden;
-}*/
-
 .like:hover{
   background-image: url(./images/like-active.png);
   background-size: 100%;
@@ -116,7 +109,6 @@
   object-fit: contain;
   min-height: 19px;
   max-width: 22px;
-
 }
 
 .place__title {
