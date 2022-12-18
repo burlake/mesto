@@ -45,7 +45,7 @@
     flex-direction: row;
     padding-top: 36px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 620px) {
   .avatar {
     flex-direction: column;
   }
@@ -145,7 +145,7 @@ padding:37px 10px 0 25px;
   min-height: 120px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 620px) {
   .profile {
     max-width: 282px;
     min-height: 286px;
