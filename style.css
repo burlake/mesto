@@ -3,6 +3,8 @@
   padding: 45px 0 41px 200px;
   max-width: 1184px;
   min-height: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .logo{
