@@ -328,6 +328,16 @@ padding: 74px 63px 0 66px;
   overflow: hidden;
 }
 
+.form{
+  margin: 0 auto;
+	text-align: center;
+	position: absolute;
+max-width: 430px;
+min-height: 330px;
+left: 50%;
+right 50%;
+top: 195px;
+}
 
 .form-title{
   margin: o auto;
