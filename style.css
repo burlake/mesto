@@ -369,7 +369,7 @@ padding: 74px 63px 0 66px;
 
 .action-button{
   margin: 0 auto;
-  margin-top: 48px;
+  padding-top: 48px;
   max-width: 358px;
   min-height: 50px;
   background: #000000;
