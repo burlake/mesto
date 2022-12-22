@@ -360,6 +360,7 @@ padding: 74px 63px 0 66px;
   max-width: 358px;
   min-height: 84px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
