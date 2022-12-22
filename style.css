@@ -233,6 +233,7 @@ padding: 74px 63px 0 66px;
 }
 
 .plus{
+  margin: 0 auto;
   max-width: 22px;
   min-height: 22px;
   padding: 13px 0 0 0;
