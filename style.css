@@ -354,6 +354,7 @@ padding: 74px 63px 0 66px;
   font-weight: 900;
   font-size: 24px;
   line-height: 29px;
+  max-width: 330px;
 }
 
 .subtitle{
@@ -377,7 +378,7 @@ padding: 74px 63px 0 66px;
 
 
 .action-button{
-  margin: 48px 36px 37px 36px;
+  margin: 48px 0px 37px 0px;
   max-width: 358px;
   min-height: 50px;
   background: #000000;
