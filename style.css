@@ -41,9 +41,9 @@
 }
 
 .avatar{
-    display: flex;
-    flex-direction: row;
-    padding-top: 36px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 35px;
 }
 @media screen and (max-width: 620px) {
   .avatar {
@@ -53,23 +53,17 @@
 
 .profile__photo {
   margin: 0 auto;
-    max-width: 127.5px;
-    min-height: 127.5px;
-    padding: 0 30px 5px 0px;
-    overflow: hidden;
-    
-
+  max-width: 127.5px;
+  min-height: 127.5px;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 100%;
 }
 
 .profile__circle{
   border-radius: 50%;
-  width: auto;
+  overflow: hidden;
 }
-
-
-
-
-
 
 
 
@@ -78,6 +72,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding-left: 25px;
 }
 
 
@@ -85,7 +80,6 @@
 .profile__name{
   margin: 0 auto;
   padding: 0;
-  padding-top: 3px;
     max-width: 294px;
     min-height: 39px;
     font-family: 'Inter';
@@ -117,6 +111,7 @@ text-align: center;
     line-height: 22px;
     color: #FFFFFF;
     text-align: start;
+    padding-top: 10px;
 }
 
 @media screen and (max-width: 320px) {
