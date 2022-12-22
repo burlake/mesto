@@ -214,8 +214,10 @@ min-height: 18px;
 
   max-width: 150px;
   min-height: 50px;
-  border: #FFFFFF solid 1px;
 background: url(./images/Rectangle-2.png);
+background-repeat: no-repeat;
+background-origin: content-box;
+background-position: top;
 object-fit: contain;
 padding: 74px 63px 0 66px;
 }
