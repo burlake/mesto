@@ -19,7 +19,9 @@
       <main>
         <section class="profile">
           <div class="avatar">
-            <img class="profile__photo" src="./images/avatar-tinypng.jpg" alt="Жак-Ив Кусто">
+            <div class="profile__circle">
+              <img class="profile__photo person__photo" src="./images/avatar-tinypng.jpg" alt="Жак-Ив Кусто">
+            </div>
             <div class="profile-info">
               <div class="profile__edit">
                 <h1 class="profile__name">Жак-Ив Кусто</h1>
@@ -91,6 +93,16 @@
       <footer class="footer">
         <p class="footer__copyright">&copy; 2022 Елизавета Буракова</p>
       </footer>
+      <form id="form">
+        <fieldset class="fieldset">
+          <h2 class="form-title">Редактировать профиль</h2>
+          <div class="subtitle">
+            <input class="form-subtitle" type="text" name="name" placeholder="Жак-Ив Кусто" />
+            <input class="form-subtitle" type="text" name="occupation" placeholder="Исследователь океана" />
+          </div>
+          <input class="action-button action-button__text" type="button" name="safe" value="Сохранить" />
+        </fieldset>
+      </form>
     </div>
   </div>
 </body>
