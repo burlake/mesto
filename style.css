@@ -356,6 +356,13 @@ padding: 74px 63px 0 66px;
   line-height: 29px;
 }
 
+.subtitle{
+  max-width: 358px;
+  min-height: 84px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .form-subtitle{
   margin: o auto;
   padding: 13px;
@@ -364,14 +371,8 @@ padding: 74px 63px 0 66px;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
-  max-width: 358px;
-  min-height: 27px;
-  padding-bottom: 30px;
 }
 
-.form-subtitle:last-child{
-  padding-bottom: 0px;
-}
 
 .action-button{
   margin: 48px 36px 37px 36px;
