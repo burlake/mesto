@@ -48,6 +48,7 @@
 @media screen and (max-width: 620px) {
   .avatar {
     flex-direction: column;
+    padding-top: 39px;
   }
 }
 
@@ -105,8 +106,8 @@ min-height: 26px;
 font-size: 27px;
 line-height: 33px;
 text-align: center;
-padding-top: 25px;
-padding-left: 23px;
+padding-top: 23px;
+padding-left: 44px;
   }
 }
 
@@ -147,6 +148,20 @@ background-position: top;
 object-fit: contain;
 padding:14px 0px 0px 22px;
 }
+
+
+
+@media screen and (max-width: 620px) {
+.edit-button{
+padding:30px 12px 0px 12px;
+max-width: 18px;
+min-height: 18px;
+}
+}
+
+
+
+
 .edit-button:hover{
   opacity: .6;
 }
@@ -156,6 +171,16 @@ padding:14px 0px 0px 22px;
   min-height: 10px;
   padding: 7px 6px 0 8px;
 }
+
+@media screen and (max-width: 620px) {
+.pen {
+  max-width: 7px;
+  min-height: 7px;
+}
+}
+
+
+
 .pen:hover{
   opacity: .6;
 }
