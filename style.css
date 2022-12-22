@@ -63,6 +63,7 @@
 .profile__circle{
   border-radius: 50%;
   overflow: hidden;
+  display: flex;
 }
 
 
@@ -73,6 +74,13 @@
     justify-content: center;
     text-align: center;
     padding-left: 25px;
+}
+
+
+@media screen and (max-width: 320px) {
+.profile-info {
+    padding-left: 0px;
+}
 }
 
 
@@ -97,6 +105,8 @@ min-height: 26px;
 font-size: 27px;
 line-height: 33px;
 text-align: center;
+padding-top: 25px;
+padding-left: 23px;
   }
 }
 
