@@ -368,8 +368,6 @@ padding: 74px 63px 0 66px;
 }
 
 .action-button{
-  display: flex;
-  justify-content: center;
   margin-top: 48px 36px 37px 36px;
   max-width: 358px;
   min-height: 50px;
