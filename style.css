@@ -364,6 +364,13 @@ padding: 74px 63px 0 66px;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+  max-width: 358px;
+  min-height: 27px;
+  padding-bottom: 30px;
+}
+
+.form-subtitle:last-child{
+  padding-bottom: 0px;
 }
 
 .action-button{
