@@ -54,8 +54,8 @@
 .profile__photo {
   margin: 0 auto;
     border-radius: 50%;
-    max-width: 122.5px;
-    min-height: 122.5px;
+    max-width: 168.75px;
+    min-height: 127.5px;
     padding: 0 30px 5px 0px;
     background-image: url(images/avatar-tinypng.jpg);
     background-repeat: no-repeat;
