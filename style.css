@@ -342,6 +342,8 @@ padding: 74px 63px 0 66px;
 
 .fieldset{
   margin: 0px;
+  max-width: 430px;
+  min-height: 330px;
   padding: 36px 36px;
   display: flex;
   flex-direction: column;
