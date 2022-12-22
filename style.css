@@ -57,9 +57,21 @@
     min-height: 127.5px;
     padding: 0 30px 5px 0px;
     overflow: hidden;
-    border-radius: 50%;
+    
 
 }
+
+.profile__circle{
+  border-radius: 50%;
+  width: auto;
+}
+
+
+
+
+
+
+
 
 .profile-info{
     display: flex;
