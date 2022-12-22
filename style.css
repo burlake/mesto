@@ -338,7 +338,7 @@ top: 195px;
 }
 
 .fieldset{
-  margin: 0 auto;
+  margin: 0;
   padding: 36px 36px;
   display: flex;
   flex-direction: column;
