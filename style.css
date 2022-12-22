@@ -237,7 +237,7 @@ padding: 74px 63px 0 66px;
   max-width: 22px;
   min-height: 22px;
   padding: 13px 0 0 0;
-  justify-content: center;
+  display: flex;
   align-items: center;
 }
 
