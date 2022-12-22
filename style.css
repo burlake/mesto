@@ -345,8 +345,6 @@ padding: 74px 63px 0 66px;
   background: #FFFFFF;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
-  outline: none;
-  border: 1px solid black;
 }
 
 .form-title{
@@ -374,6 +372,8 @@ padding: 74px 63px 0 66px;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+  outline: none;
+  border: 1px solid black;
 }
 
 
