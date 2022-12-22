@@ -153,7 +153,7 @@ padding:14px 0px 0px 22px;
 
 @media screen and (max-width: 620px) {
 .edit-button{
-padding:30px 12px 0px 12px;
+  padding: 30px 17px 2px 10px;
 max-width: 18px;
 min-height: 18px;
 }
@@ -176,6 +176,7 @@ min-height: 18px;
 .pen {
   max-width: 7px;
   min-height: 7px;
+  padding: 6px 10px 0 0px;
 }
 }
 
