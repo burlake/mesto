@@ -53,15 +53,20 @@
 
 .profile__photo {
   margin: 0 auto;
-    border-radius: 50%;
-    max-width: 168.75px;
+    max-width: 127.5px;
     min-height: 127.5px;
     padding: 0 30px 5px 0px;
-    background-image: url(images/avatar-tinypng.jpg);
-    background-repeat: no-repeat;
+    overflow: hidden;
+
 }
 
-
+.person__photo {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
 
 .profile-info{
     display: flex;
