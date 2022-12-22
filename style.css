@@ -334,6 +334,7 @@ padding: 74px 63px 0 66px;
   left: 425px;
   top: 195px;
   box-sizing: border-box;
+  box-shadow: none;
 }
 
 .fieldset{
