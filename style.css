@@ -341,9 +341,6 @@ padding: 74px 63px 0 66px;
 }
 
 .popup__content{
-  position: relative;
-  top: 243px;
-  left: 36px;
   margin: 0px;
   width: 430px;
   padding: 34px 0px 0px 36px;
@@ -387,8 +384,6 @@ padding: 74px 63px 0 66px;
 
 
 .action-button{
-  position: absolute;
-
   margin: 48px 0px 37px 0px;
   max-width: 358px;
   min-height: 50px;
