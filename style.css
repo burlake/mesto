@@ -392,7 +392,8 @@ padding: 74px 63px 0 66px;
   min-height: 50px;
   background: #000000;
   border-radius: 2px;
-
+  display: flex;
+  justify-content: center;
 }
 
 .action-button__text{
