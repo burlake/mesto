@@ -342,7 +342,7 @@ padding: 74px 63px 0 66px;
 
 .popup__content{
   margin: 0px;
-  width: 430px;
+  max-width: 430px;
   min-height: 330px;
   padding: 34px 0px 0px 36px;
   display: flex;
