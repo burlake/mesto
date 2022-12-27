@@ -341,7 +341,7 @@ padding: 74px 63px 0 66px;
 
 .popup__content{
   margin: 0px;
-  max-width: 430px;
+  width: 430px;
   padding: 34px 0px 0px 36px;
   display: flex;
   flex-direction: column;
