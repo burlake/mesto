@@ -328,7 +328,7 @@ padding: 74px 63px 0 66px;
   overflow: hidden;
 }
 
-.form{
+.popup{
   margin: 0 auto;
   position: absolute;
   left: 425px;
@@ -336,7 +336,7 @@ padding: 74px 63px 0 66px;
   box-sizing: border-box;
 }
 
-.fieldset{
+.popup__content{
   margin: 0px;
   max-width: 430px;
   padding: 34px 0px 0px 36px;
