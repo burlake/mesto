@@ -335,17 +335,23 @@ padding: 74px 63px 0 66px;
   bottom: 0px;
   left: 0px;
   background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
 }
 
 .popup__content{
   margin: 0px;
-  max-width: 430px;
+  width: 430px;
+  min-height: 330px;
   padding: 34px 0px 0px 36px;
   display: flex;
   flex-direction: column;
   background: #FFFFFF;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
+  box-sizing: border-box;
+  margin: 195px 425px;
+  position: relative;
 }
 
 
@@ -396,4 +402,16 @@ padding: 74px 63px 0 66px;
   line-height: 22px;
   text-align: center;
   color: #FFFFFF;
+}
+
+.popup__close-button{
+  position: absolute;
+  top: 28px;
+  right: 55px;
+  background-image: url(images/popup__close-button.svg);
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
