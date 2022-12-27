@@ -328,15 +328,16 @@ padding: 74px 63px 0 66px;
   overflow: hidden;
 }
 
-.form{
-  margin: 0 auto;
-  position: absolute;
-  left: 425px;
-  top: 195px;
-  box-sizing: border-box;
+.popup{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.fieldset{
+.popup__content{
   margin: 0px;
   max-width: 430px;
   padding: 34px 0px 0px 36px;
@@ -375,6 +376,7 @@ padding: 74px 63px 0 66px;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+  border-radius: 2px black solid;
 }
 
 
