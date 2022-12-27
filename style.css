@@ -351,6 +351,7 @@ padding: 74px 63px 0 66px;
   border-radius: 10px;
   box-sizing: border-box;
   margin: 195px 425px;
+  position: relative;
 }
 
 
@@ -401,4 +402,16 @@ padding: 74px 63px 0 66px;
   line-height: 22px;
   text-align: center;
   color: #FFFFFF;
+}
+
+.popup__close-button{
+  position: absolute;
+  top: 28px;
+  right: 55px;
+  background-image: url(images/popup__close-button.svg);
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
