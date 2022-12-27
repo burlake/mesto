@@ -337,7 +337,6 @@ padding: 74px 63px 0 66px;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
-  position: relative;
 }
 
 .popup__content{
@@ -352,7 +351,7 @@ padding: 74px 63px 0 66px;
   border-radius: 10px;
   box-sizing: border-box;
   margin: 195px 425px;
-
+  position: relative;
 }
 
 
@@ -407,8 +406,8 @@ padding: 74px 63px 0 66px;
 
 .popup__close-button{
   position: absolute;
-  top: 155px;
-  right: 385px;
+  top: -10px;
+  right: -10px;
   background-image: url(images/popup__close-button.svg);
   width: 32px;
   height: 32px;
