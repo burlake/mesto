@@ -417,5 +417,5 @@ padding: 74px 63px 0 66px;
 }
 
 .popup_opened{
-  display: flex;
+  display: block;
 }
