@@ -17,10 +17,11 @@ aboutCloseButton.addEventListener('click', (event) => {
 aboutPopup.addEventListener('click', (event) => {
     event.preventDefault();
     console.log(event.targe, event.currentTarget);
-    //aboutPopup.classList.remove('popup_opened')
+    //aboutPopup.classList.remove('popup_opened');
+
 
 
    // if(event.target === event.currentTarget);{
         //aboutPopup.classList.remove('popup_opened')
-    };
+    //};
 })
