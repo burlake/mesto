@@ -437,6 +437,11 @@ padding: 74px 63px 0 66px;
   }
 }
 
+.action-button:hover{
+  opacity: .6;
+}
+
+
 .action-button__text{
   font-style: normal;
   font-weight: 400;
