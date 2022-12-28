@@ -13,3 +13,9 @@ aboutCloseButton.addEventListener('click', (event) => {
     console.log(event);
     aboutPopup.classList.remove('popup_opened');
 })
+
+aboutPopup.addEventListener('click', (event) => {
+    event.preventDefault();
+    console.log(event);
+    aboutPopup.classList.remove('popup_opened');
+})
