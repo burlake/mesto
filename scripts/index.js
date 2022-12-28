@@ -8,7 +8,7 @@ aboutButton.addEventListener('click', (event) => {
     aboutPopup.classList.add('popup_opened');
 })
 
-aboutaboutCloseButton.addEventListener('click', (event) => {
+aboutCloseButton.addEventListener('click', (event) => {
     event.preventDefault();
     console.log(event);
     aboutPopup.classList.remove('popup_opened');
