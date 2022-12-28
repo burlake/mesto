@@ -401,7 +401,7 @@ padding: 74px 63px 0 66px;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  color: #FFFFFF;
+  color: rgb(0, 0, 0);
 }
 
 .popup__close-button{
