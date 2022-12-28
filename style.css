@@ -434,6 +434,7 @@ padding: 74px 63px 0 66px;
     margin: 45px 0px 25px 0px;
     width: 238px;
     height: 46px;
+    border-radius: 2px;
   }
 }
 
@@ -480,7 +481,9 @@ padding: 74px 63px 0 66px;
   }
 }
 
-
+.popup__close-button:hover{
+  opacity: .6;
+}
 
 
 .popup_opened{
