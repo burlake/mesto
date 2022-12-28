@@ -331,9 +331,9 @@ padding: 74px 63px 0 66px;
 .popup{
   position: fixed;
   top: 0px;
-  right: 50%;
+  right: 0px;
   bottom: 0px;
-  left: 50%;
+  left: 0px;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
