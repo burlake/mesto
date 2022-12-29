@@ -24,29 +24,14 @@ aboutPopup.addEventListener('click', (event) => {
 
 
 
-
-
-
-
-// Находим форму в DOM
 let formElement = document.querySelector('.edit-button');
-// Находим поля формы в DOM
 let nameInput = document.querySelector('.form__subtitle_name');
 let jobInput = document.querySelector('.form__subtitle_job');
 
-// Обработчик «отправки» формы, хотя пока
-// она никуда отправляться не будет
 function handleFormSubmit (evt) {
     evt.preventDefault();
-
-
-    // Получите значение полей jobInput и nameInput из свойства value
-
-    // Выберите элементы, куда должны быть вставлены значения полей
-
-    // Вставьте новые значения с помощью textContent
+    profileName.textContent = nameInput.value;
+    profileDescr.textContent = jobInput.value;
+    closePopup(popup);
 }
-
-// Прикрепляем обработчик к форме:
-// он будет следить за событием “submit” - «отправка»
 formElement.addEventListener('submit', handleFormSubmit);
