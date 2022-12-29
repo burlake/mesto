@@ -39,6 +39,7 @@ let jobInput = document.querySelector('.form__subtitle_job');
 function handleFormSubmit (evt) {
     evt.preventDefault();
 
+
     // Получите значение полей jobInput и nameInput из свойства value
 
     // Выберите элементы, куда должны быть вставлены значения полей
