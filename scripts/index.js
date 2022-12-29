@@ -24,11 +24,6 @@ aboutPopup.addEventListener('click', (event) => {
 
 
 
-let formElement = document.querySelector('.edit-button');
-formElement.method = 'GET';
-document.body.append(formElement);
-formElement.submit(); 
-
 let nameInput = document.querySelector('.form__subtitle_name');
 nameInput.method = 'GET';
 document.body.append(nameInput);
