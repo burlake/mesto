@@ -406,7 +406,7 @@ padding: 74px 63px 0 66px;
   }
 }
 
-.form-subtitle{
+.form__subtitle{
   margin: 0 auto;
   width: 358px;
   height: 27px;
@@ -421,7 +421,7 @@ padding: 74px 63px 0 66px;
 }
 
 @media screen and (max-width: 320px) {
-  .form-subtitle{
+  .form__subtitle{
     width: 238px;
   }
 }
