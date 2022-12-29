@@ -24,22 +24,20 @@ aboutPopup.addEventListener('click', (event) => {
 
 
 
-document.querySelector('.edit-button');
+
 
 
 
 // Находим форму в DOM
 let formElement = document.querySelector('.edit-button');
 // Находим поля формы в DOM
-let nameInput = // Воспользуйтесь инструментом .querySelector()
-let jobInput = // Воспользуйтесь инструментом .querySelector()
+let nameInput = document.querySelector('.form__subtitle_name');
+let jobInput = document.querySelector('.form__subtitle_job');
 
 // Обработчик «отправки» формы, хотя пока
 // она никуда отправляться не будет
 function handleFormSubmit (evt) {
-    evt.preventDefault(); // Эта строчка отменяет стандартную отправку формы.
-                                                // Так мы можем определить свою логику отправки.
-                                                // О том, как это делать, расскажем позже.
+    evt.preventDefault();
 
     // Получите значение полей jobInput и nameInput из свойства value
 
