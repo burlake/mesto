@@ -30,16 +30,19 @@ aboutPopup.addEventListener('click', (event) => {
 
 let profile__name = document.querySelector('.subtitle');
 let formElement = document.querySelector('.edit-button');
-let nameInput = document.querySelector('.form__subtitle_name');
-let jobInput = document.querySelector('.form__subtitle_job');
 
-function handleFormSubmit (evt) {
-    evt.preventDefault();   
-    form__subtitle_name.textContent = nameInput.value;
-    form__subtitle_job.textContent = jobInput.value;
+const nameInput = document.querySelector('.form__subtitle_name');
+const jobInput = document.querySelector('.form__subtitle_job');
+
+function handleFormSubmit (event) {
+    event.preventDefault(); 
+    console.log('Отправка!')  
+    profile__name.textContent = nameInput.value;
+    profile__description.textContent = jobInput.value;
     closePopup(popup);
+    console.log('Отправка!')
 }
+const applicantForm = document.getElementById('subtitle');
+applicantForm.addEventListener('submit', handleFormSubmit);
+
 formElement.addEventListener('submit', handleFormSubmit);
-
-
-
