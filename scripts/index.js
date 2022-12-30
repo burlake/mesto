@@ -1,6 +1,8 @@
 const aboutButton = document.querySelector('.edit-button');
 const aboutPopup = document.querySelector('.popup_about');
 const aboutCloseButton = aboutPopup.querySelector('.popup__close-button');
+const popupNameInput = popupContainer.querySelector('.form__subtitle_name');
+const popupDescrInput = popupContainer.querySelector('.form__subtitle_job');
 
 aboutButton.addEventListener('click', (event) => {
     event.preventDefault();
@@ -24,6 +26,9 @@ aboutPopup.addEventListener('click', (event) => {
 
 
 
+
+
+let profile__name = document.querySelector('.subtitle');
 let formElement = document.querySelector('.edit-button');
 let nameInput = document.querySelector('.form__subtitle_name');
 let jobInput = document.querySelector('.form__subtitle_job');
