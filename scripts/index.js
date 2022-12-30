@@ -36,13 +36,13 @@ const jobInput = document.querySelector('.form__subtitle_job');
 
 function handleFormSubmit (event) {
     event.preventDefault(); 
-    console.log('Отправка!')  
+
     profile__name.textContent = nameInput.value;
     profile__description.textContent = jobInput.value;
     closePopup(popup);
-    console.log('Отправка!')
 }
-const applicantForm = document.getElementById('subtitle');
-applicantForm.addEventListener('.action-button', handleFormSubmit);
-
 formElement.addEventListener('.action-button', handleFormSubmit);
+
+const applicantForm = document.getElementById('subtitle');
+applicantForm.addEventListener('submit', handleFormSubmit);
+
