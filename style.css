@@ -164,6 +164,7 @@ min-height: 18px;
 
 .edit-button:hover{
   opacity: .6;
+  transition: 1s linear 0.5s;
 }
 
 .pen{
@@ -184,6 +185,7 @@ min-height: 18px;
 
 .pen:hover{
   opacity: .6;
+  transition: 1s linear 0.5s;
 }
 
 .profile{
@@ -223,6 +225,7 @@ padding: 74px 63px 0 66px;
 }
 .add-button__plus:hover{
   opacity: .6;
+  transition: 1s linear 0.5s;
 }
 
 @media screen and (max-width: 320px) {
@@ -243,6 +246,7 @@ padding: 74px 63px 0 66px;
 
 .plus:hover{
   opacity: .6;
+  transition: 1s linear 0.5s;
 }
 
 @media screen and (max-width: 320px) {
@@ -271,6 +275,7 @@ padding: 74px 63px 0 66px;
 
 .gallery__cards:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: 1s linear 0.5s;
 }
 
 .container {
@@ -298,6 +303,7 @@ padding: 74px 63px 0 66px;
 
 .like:hover{
   opacity: .5;
+  transition: 1s linear 0.5s;
 }
 
 .like:active{
@@ -355,6 +361,16 @@ padding: 74px 63px 0 66px;
   position: relative;
 }
 
+@media screen and (max-width: 320px) {
+  .popup__content {
+    max-width: 282px;
+    min-height: 322px;
+    padding: 22px 22px; 
+    margin: 123px 19px;
+  }
+}
+
+
 
 .form-title{
   margin: 0px;
@@ -366,6 +382,15 @@ padding: 74px 63px 0 66px;
   max-width: 330px;
 }
 
+@media screen and (max-width: 320px) {
+  .form-title{
+    padding: 0px 0px 75px 0px;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 238px;    
+  }
+}
+
 .subtitle{
   max-width: 358px;
   min-height: 84px;
@@ -375,15 +400,30 @@ padding: 74px 63px 0 66px;
 
 }
 
-.form-subtitle{
-  margin: o auto;
+@media screen and (max-width: 320px) {
+  .subtitle{
+    max-width: 238px;
+  }
+}
+
+.form__subtitle{
+  margin: 0 auto;
+  width: 358px;
+  height: 27px;
   padding-bottom: 13px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
-  border-radius: 2px black solid;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 320px) {
+  .form__subtitle{
+    width: 238px;
+  }
 }
 
 
@@ -395,6 +435,21 @@ padding: 74px 63px 0 66px;
   border-radius: 2px;
 }
 
+@media screen and (max-width: 320px) {
+  .action-button{
+    margin: 45px 0px 25px 0px;
+    width: 238px;
+    height: 46px;
+    border-radius: 2px;
+  }
+}
+
+.action-button:hover{
+  opacity: .6;
+  transition: 1s linear 0.5s;
+}
+
+
 .action-button__text{
   font-style: normal;
   font-weight: 400;
@@ -402,6 +457,13 @@ padding: 74px 63px 0 66px;
   line-height: 22px;
   text-align: center;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px) {
+  .action-button__text{
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
 
 .popup__close-button{
@@ -414,4 +476,24 @@ padding: 74px 63px 0 66px;
   border: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .popup__close-button{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.popup__close-button:hover{
+  opacity: .6;
+  transition: 1s linear 0.5s;
+}
+
+
+.popup_opened{
+  display: block;
 }
