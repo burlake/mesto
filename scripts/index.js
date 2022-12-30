@@ -43,6 +43,6 @@ function handleFormSubmit (event) {
     console.log('Отправка!')
 }
 const applicantForm = document.getElementById('subtitle');
-applicantForm.addEventListener('.action-button', handleFormSubmit);
+applicantForm.addEventListener('action-button', handleFormSubmit);
 
 formElement.addEventListener('submit', handleFormSubmit);
