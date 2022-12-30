@@ -27,17 +27,22 @@ aboutPopup.addEventListener('click', (event) => {
 
 
 
-function qs(selector) {
-    return document.querySelector(selector);
-  }
-  
-  function formSubmitHandler(evt) {
-    evt.preventDefault();
-    qs('.profile__name').textContent = qs('.popup__input_type_name').value;
-    qs('.profile__description').textContent = qs('.popup__input_type_description').value;
-    closeEditForm();
-  }
-  
-  function closeEditForm() {}
-  
-  document.getElementById('submit').addEventListener('click', formSubmitHandler);
+
+let profile__name = document.querySelector('.subtitle');
+let formElement = document.querySelector('.edit-button');
+
+const nameInput = document.querySelector('.form__subtitle_name');
+
+const jobInput = document.querySelector('.form__subtitle_job');
+
+function handleFormSubmit (event) {
+    event.preventDefault(); 
+
+    form__subtitle_name.textContent = nameInput.value;
+    form__subtitle_job.textContent = jobInput.value;
+    closePopup(popup);
+}
+formElement.addEventListener('.action-button', handleFormSubmit);
+
+const applicantForm = document.getElementById('subtitle');
+applicantForm.addEventListener('submit', handleFormSubmit);
