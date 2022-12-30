@@ -35,8 +35,8 @@ let jobInput = document.querySelector('.form__subtitle_job');
 
 function handleFormSubmit (evt) {
     evt.preventDefault();   
-    profile__name.textContent = nameInput.value;
-    profile__description.textContent = jobInput.value;
+    form__subtitle_name.textContent = nameInput.value;
+    form__subtitle_job.textContent = jobInput.value;
     closePopup(popup);
 }
 formElement.addEventListener('submit', handleFormSubmit);
