@@ -29,7 +29,7 @@ aboutCloseButton.addEventListener('click', (event) => {
 //закрытие попапа за пределами кнопки popup__close-button
 aboutPopup.addEventListener('click', (event) => {
     event.preventDefault();
-    console.log(event.targe, event.currentTarget);
+    console.log(event.target , event.currentTarget);
     if(event.target === event.currentTarget){
         aboutPopup.classList.remove('popup_opened')
     };
