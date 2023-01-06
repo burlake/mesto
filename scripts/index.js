@@ -35,20 +35,27 @@ aboutCloseButton.addEventListener('click', (event) => {
 //})
 
 //функция обработки отправки формы
-function handleFormSubmit (event) {
-    event.preventDefault(); 
+//function handleFormSubmit (event) {
+    //event.preventDefault(); 
+    //popupNameInput.textContent = nameInput.value;
+    //popupDescrInput.textContent = jobInput.value;
+    //SaveButton();
+//}
+//let SaveButton = document.querySelector('.action-button');
+//SaveButton.onclick = function (event){
+    //event.preventDefault(); 
+    //console.log('work');
+//}
+
+
+  function handleFormSubmit (event) {
     popupNameInput.textContent = nameInput.value;
     popupDescrInput.textContent = jobInput.value;
-    SaveButton();
-}
-let SaveButton = document.querySelector('.action-button');
-SaveButton.onclick = function (event){
-    event.preventDefault(); 
-    console.log('work');
-}
+    event.preventDefault();
+  }
+  
+  const formElement = document.querySelector('.subtitle');
+  const popupNameInput = document.querySelector('.profile__user-name');
+  const jobInput = document.querySelector('.form__subtitle_job');
 
-
-
-
-//слушатели событий
-formElement.addEventListener("submit", handleFormSubmit);
+  formElement.addEventListener('submit', handleFormSubmit);
