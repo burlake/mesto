@@ -2,7 +2,7 @@
 const popup = document.querySelector(".popup");
 const aboutPopup = document.querySelector('.popup_about');
 //форма и инпуты
-const formElement = document.querySelector('.subtitle');
+//const formElement = document.querySelector('.subtitle');
 const nameInput = document.querySelector('.form__subtitle_name');
 const jobInput = document.querySelector('.form__subtitle_job');
 //профиль юзера
