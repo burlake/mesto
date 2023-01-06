@@ -6,11 +6,12 @@ const formElement = document.querySelector('.subtitle');
 const nameInput = document.querySelector('.form__subtitle_name');
 const jobInput = document.querySelector('.form__subtitle_job');
 //профиль юзера
-const popupNameInput = document.querySelector('.form__subtitle_name');
-const popupDescrInput = document.querySelector('.form__subtitle_job');
+const popupNameInput = document.querySelector('.profile__user-name');
+const popupDescrInput = document.querySelector('.profile__user-job');
 //кнопки
 const aboutButton = document.querySelector('.edit-button');
 const aboutCloseButton = aboutPopup.querySelector('.popup__close-button');
+const SaveButton = document.querySelector('.action-button');
 
 //открытие попапа
 aboutButton.addEventListener('click', (event) => {
@@ -39,8 +40,8 @@ function handleFormSubmit (event) {
     event.preventDefault(); 
     popupNameInput.textContent = nameInput.value;
     popupDescrInput.textContent = jobInput.value;
-    closePopup();
+    SaveButton();
 }
 
 //слушатели событий
-formElement.addEventListener('.action-button', handleFormSubmit);
+formElement.addEventListener("submit", handleFormSubmit);
