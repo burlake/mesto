@@ -27,13 +27,13 @@ aboutCloseButton.addEventListener('click', (event) => {
     aboutPopup.classList.remove('popup_opened');
 })
 //закрытие попапа за пределами кнопки popup__close-button
-aboutPopup.addEventListener('click', (event) => {
-    event.preventDefault();
-    console.log(event.target , event.currentTarget);
-    if(event.target === event.currentTarget){
-        aboutPopup.classList.remove('popup_opened')
-    };
-})
+//aboutPopup.addEventListener('click', (event) => {
+    //event.preventDefault();
+    //console.log(event.target , event.currentTarget);
+    //if(event.target === event.currentTarget){
+        //aboutPopup.classList.remove('popup_opened')
+    //};
+//})
 
 //функция обработки отправки формы
 function handleFormSubmit (event) {
