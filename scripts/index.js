@@ -42,6 +42,14 @@ function handleFormSubmit (event) {
     popupDescrInput.textContent = jobInput.value;
     SaveButton();
 }
+let SaveButton = document.querySelector('.action-button');
+SaveButton.onclick = function (event){
+    event.preventDefault(); 
+    console.log('work');
+}
+
+
+
 
 //слушатели событий
 formElement.addEventListener("submit", handleFormSubmit);
