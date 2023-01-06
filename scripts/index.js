@@ -1,5 +1,5 @@
 //попап
-const popup = document.querySelector(".popup");
+const popup = document.querySelector('.popup');
 const aboutPopup = document.querySelector('.popup_about');
 //форма и инпуты
 //const formElement = document.querySelector('.subtitle');
