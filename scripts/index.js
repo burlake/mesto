@@ -1,21 +1,31 @@
-const aboutButton = document.querySelector('.edit-button');
+//попап
+const popup = document.querySelector(".popup");
 const aboutPopup = document.querySelector('.popup_about');
-const aboutCloseButton = aboutPopup.querySelector('.popup__close-button');
+//форма и инпуты
+const formElement = document.querySelector('.subtitle');
+const nameInput = document.querySelector('.form__subtitle_name');
+const jobInput = document.querySelector('.form__subtitle_job');
+//профиль юзера
 const popupNameInput = document.querySelector('.form__subtitle_name');
 const popupDescrInput = document.querySelector('.form__subtitle_job');
+//кнопки
+const aboutButton = document.querySelector('.edit-button');
+const aboutCloseButton = aboutPopup.querySelector('.popup__close-button');
 
+//открытие попапа
 aboutButton.addEventListener('click', (event) => {
     event.preventDefault();
     console.log(event);
     aboutPopup.classList.add('popup_opened');
 })
 
+//закрытие попапа
 aboutCloseButton.addEventListener('click', (event) => {
     event.preventDefault();
     console.log(event);
     aboutPopup.classList.remove('popup_opened');
 })
-
+//закрытие попапа за пределами кнопки popup__close-button
 aboutPopup.addEventListener('click', (event) => {
     event.preventDefault();
     console.log(event.targe, event.currentTarget);
@@ -24,25 +34,13 @@ aboutPopup.addEventListener('click', (event) => {
     };
 })
 
-
-
-
-
-let profile__name = document.querySelector('.subtitle');
-let formElement = document.querySelector('.edit-button');
-
-const nameInput = document.querySelector('.form__subtitle_name');
-
-const jobInput = document.querySelector('.form__subtitle_job');
-
+//функция обработки отправки формы
 function handleFormSubmit (event) {
     event.preventDefault(); 
-
-    form__subtitle_name.textContent = nameInput.value;
-    form__subtitle_job.textContent = jobInput.value;
-    closePopup(popup);
+    popupNameInput.textContent = nameInput.value;
+    popupDescrInput.textContent = jobInput.value;
+    closePopup();
 }
-formElement.addEventListener('.action-button', handleFormSubmit);
 
-const applicantForm = document.getElementById('subtitle');
-applicantForm.addEventListener('submit', handleFormSubmit);
+//слушатели событий
+formElement.addEventListener('.action-button', handleFormSubmit);
