@@ -11,6 +11,7 @@ const popupDescrInput = document.querySelector('.form__subtitle_job');
 //кнопки
 const aboutButton = document.querySelector('.edit-button');
 const aboutCloseButton = aboutPopup.querySelector('.popup__close-button');
+const SaveButton = document.querySelector('.action-button');
 
 //открытие попапа
 aboutButton.addEventListener('click', (event) => {
@@ -43,4 +44,4 @@ function handleFormSubmit (event) {
 }
 
 //слушатели событий
-formElement.addEventListener('.action-button', handleFormSubmit);
+formElement.addEventListener("submit", handleFormSubmit);
