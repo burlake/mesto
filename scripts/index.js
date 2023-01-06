@@ -40,7 +40,7 @@ function handleFormSubmit (event) {
     event.preventDefault(); 
     popupNameInput.textContent = nameInput.value;
     popupDescrInput.textContent = jobInput.value;
-    closePopup();
+    SaveButton();
 }
 
 //слушатели событий
