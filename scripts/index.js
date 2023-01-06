@@ -6,8 +6,8 @@ const formElement = document.querySelector('.subtitle');
 const nameInput = document.querySelector('.form__subtitle_name');
 const jobInput = document.querySelector('.form__subtitle_job');
 //профиль юзера
-const popupNameInput = document.querySelector('.profile__user-name');
-const popupDescrInput = document.querySelector('.profile__user-job');
+//const popupNameInput = document.querySelector('.profile__user-name');
+//const popupDescrInput = document.querySelector('.profile__user-job');
 //кнопки
 const aboutButton = document.querySelector('.edit-button');
 const aboutCloseButton = aboutPopup.querySelector('.popup__close-button');
