@@ -49,9 +49,10 @@ aboutCloseButton.addEventListener('click', (event) => {
 
 
   function handleFormSubmit (event) {
+    event.preventDefault();
     popupNameInput.textContent = nameInput.value;
     popupDescrInput.textContent = jobInput.value;
-    event.preventDefault();
+
   }
   
   const formElement = document.querySelector('.subtitle');
