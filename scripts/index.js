@@ -47,8 +47,8 @@ aboutCloseButton.addEventListener('click', (event) => {
     //console.log('work');
 //}
 
-let userName = document.querySelector (.'profile__name')
-let userJob = document.querySelector (.'profile__description')
+let userName = document.querySelector ('.profile__name')
+let userJob = document.querySelector ('.profile__description')
 let nameInput = document.querySelector('.form__subtitle_name ');
 let jobInput = document.querySelector('.form__subtitle_job');
 
@@ -59,9 +59,6 @@ function handleFormSubmit(event) {
     closePopup();
   }
   
-
-
-
   formElement.addEventListener('submit', handleFormSubmit);
 
 
