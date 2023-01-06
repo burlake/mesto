@@ -11,7 +11,6 @@ const popupDescrInput = document.querySelector('.profile__user-job');
 //кнопки
 const aboutButton = document.querySelector('.edit-button');
 const aboutCloseButton = aboutPopup.querySelector('.popup__close-button');
-const SaveButton = document.querySelector('.action-button');
 
 //открытие попапа
 aboutButton.addEventListener('click', (event) => {
