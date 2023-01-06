@@ -2,8 +2,8 @@
 const popup = document.querySelector('.popup');
 const aboutPopup = document.querySelector('.popup_about');
 //форма и инпуты
-//const formElement = document.querySelector('.subtitle');
-const nameInput = document.querySelector('.form__subtitle_name');
+const formElement = document.querySelector('.subtitle');
+//const nameInput = document.querySelector('.form__subtitle_name');
 //const jobInput = document.querySelector('.form__subtitle_job');
 //профиль юзера
 //const popupNameInput = document.querySelector('.profile__name');
@@ -47,16 +47,21 @@ aboutCloseButton.addEventListener('click', (event) => {
     //console.log('work');
 //}
 
+let userName = document.querySelector (.'profile__name')
+let userJob = document.querySelector (.'profile__description')
+let nameInput = document.querySelector('.form__subtitle_name ');
+let jobInput = document.querySelector('.form__subtitle_job');
 
-  function handleFormSubmit (event) {
+function handleFormSubmit(event) {
     event.preventDefault();
-    popupNameInput.textContent = nameInput.value;
-    popupDescrInput.textContent = jobInput.value;
-
+    userName.textContent = nameInput.value; 
+    userJob.textContent = jobInput.value;
+    closePopup();
   }
   
-  const formElement = document.querySelector('.subtitle');
-  const popupNameInput = document.querySelector('.profile__user-name');
-  const jobInput = document.querySelector('.form__subtitle_job');
+
+
 
   formElement.addEventListener('submit', handleFormSubmit);
+
+
