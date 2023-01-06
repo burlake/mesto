@@ -1,5 +1,5 @@
 //попап
-const popup = document.querySelector(".popup");
+const popup = document.querySelector('.popup');
 const aboutPopup = document.querySelector('.popup_about');
 //форма и инпуты
 //const formElement = document.querySelector('.subtitle');
@@ -49,9 +49,10 @@ aboutCloseButton.addEventListener('click', (event) => {
 
 
   function handleFormSubmit (event) {
+    event.preventDefault();
     popupNameInput.textContent = nameInput.value;
     popupDescrInput.textContent = jobInput.value;
-    event.preventDefault();
+
   }
   
   const formElement = document.querySelector('.subtitle');
