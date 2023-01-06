@@ -47,6 +47,11 @@ aboutCloseButton.addEventListener('click', (event) => {
     //console.log('work');
 //}
 
+//функция закрытия попапа
+function closePopup() {
+    aboutPopup.classList.remove("popup_opened");
+  } 
+
 let userName = document.querySelector ('.profile__name')
 let userJob = document.querySelector ('.profile__description')
 let nameInput = document.querySelector('.form__subtitle_name ');
