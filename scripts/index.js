@@ -1,6 +1,6 @@
 //попап
 const popup = document.querySelector(".popup");
-const aboutPopup = document.querySelector(".popup_about");
+const aboutPopup = document.querySelector(".popup__about");
 //форма и инпуты
 const formElement = document.querySelector(".subtitle");
 const aboutButton = document.querySelector(".button__edit");
@@ -10,27 +10,27 @@ const aboutCloseButton = aboutPopup.querySelector(".popup__close-button");
 aboutButton.addEventListener("click", (event) => {
     event.preventDefault();
     console.log(event);
-    aboutPopup.classList.add("popup_opened");
+    aboutPopup.classList.add("popup__opened");
 });
 
 //закрытие попапа
 aboutCloseButton.addEventListener("click", (event) => {
     event.preventDefault();
     console.log(event);
-    aboutPopup.classList.remove("popup_opened");
+    aboutPopup.classList.remove("popup__opened");
 });
 //закрытие попапа за пределами кнопки popup__close-button
 //aboutPopup.addEventListener('click', (event) => {
 //event.preventDefault();
 //console.log(event.target , event.currentTarget);
 //if(event.target === event.currentTarget){
-//aboutPopup.classList.remove('popup_opened')
+//aboutPopup.classList.remove('popup__opened')
 //};
 //})
 
 //функция закрытия попапа
 function closePopup() {
-    aboutPopup.classList.remove("popup_opened");
+    aboutPopup.classList.remove("popup__opened");
 }
 
 //функция обработки отправки формы

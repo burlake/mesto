@@ -1,0 +1,22 @@
+.like {
+  min-height: 19px;
+  max-width: 22px;
+  object-fit: contain;
+}
+
+.like:hover {
+  opacity: 0.5;
+  transition: 1s linear 0.5s;
+}
+
+.like:active {
+  background-image: url(./images/like-active.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: border-box;
+  object-fit: contain;
+  min-height: 22px;
+  max-width: 22px;
+  opacity: 1;
+}

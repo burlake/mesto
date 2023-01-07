@@ -1,0 +1,22 @@
+.action-button {
+    margin: 22px 0px 37px 0px;
+    max-width: 358px;
+    min-height: 50px;
+    background: #000000;
+    border-radius: 2px;
+  }
+  
+  @media screen and (max-width: 320px) {
+    .action-button {
+      margin-top: 15px;
+      margin-bottom: 25px;
+      width: 238px;
+      height: 46px;
+      border-radius: 2px;
+    }
+  }
+  
+  .action-button:hover {
+    opacity: 0.6;
+    transition: 1s linear 0.5s;
+  }
