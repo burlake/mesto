@@ -11,8 +11,7 @@
 
 @media screen and (max-width: 400px) {
   .gallery__cards {
-    min-height: 361px;
-    max-width: 282px;
+    min-height: 216px;
+    max-width: 288px;
   }
 }
-

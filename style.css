@@ -227,7 +227,7 @@ height: 18px;
   height: 50px;
   border: 2px solid #FFFFFF;
   border-radius: 2px;
-  margin-top: 72px;
+  padding: 74px 63px 0 66px;
 }
 .add-button__plus:hover{
   opacity: .6;
@@ -263,14 +263,6 @@ height: 18px;
     align-items: center;
   }
 }
-
-
-
-
-
-
-
-
 
 
 .gallery__cards {
