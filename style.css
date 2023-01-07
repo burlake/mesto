@@ -115,7 +115,7 @@ min-height: 26px;
 font-size: 27px;
 line-height: 33px;
 text-align: center;
-padding-top: 23px;
+padding-top: 27px;
 padding-left: 44px;
   }
 }
@@ -142,7 +142,7 @@ min-height: 14px;
 font-size: 14px;
 line-height: 17px;
 text-align: center;
-padding-top: 6px;
+padding-top: 7px;
   }
 }
 
@@ -162,7 +162,7 @@ padding:19px 0px 0px 22px;
 
 @media screen and (max-width: 620px) {
 .edit-button{
-  padding: 30px 17px 2px 10px;
+  padding: 30px 17px 7px 10px;
 width: 18px;
 height: 18px;
 }
@@ -225,12 +225,9 @@ height: 18px;
 
   width: 150px;
   height: 50px;
-background: url(./images/Rectangle-2.png);
-background-repeat: no-repeat;
-background-origin: content-box;
-background-position: top;
-object-fit: contain;
-padding: 74px 63px 0 66px;
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
+  padding: 74px 63px 0 66px;
 }
 .add-button__plus:hover{
   opacity: .6;
