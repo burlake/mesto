@@ -43,23 +43,32 @@
 .avatar{
   display: flex;
   flex-direction: row;
-  padding-top: 35px;
+  padding-top: 39px;
 }
 @media screen and (max-width: 620px) {
   .avatar {
     flex-direction: column;
-    padding-top: 39px;
+    padding-top: 42px;
   }
 }
 
 .profile__photo {
   margin: 0 auto;
-  max-width: 127.5px;
-  min-height: 127.5px;
+  max-width: 118.5px;
+  min-height: 118.5px;
   padding: 0;
   overflow: hidden;
   border-radius: 100%;
 }
+
+@media screen and (max-width: 320px) {
+  .profile__photo {
+    max-width: 119.5px;
+    min-height: 119.5px;
+  }
+}
+
+
 
 .profile__circle{
   border-radius: 50%;
@@ -74,7 +83,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-left: 25px;
+    padding-left: 32px;
 }
 
 
@@ -88,7 +97,7 @@
 
 .profile__name{
   margin: 0 auto;
-  padding: 0;
+  padding: 5px 2px 0px 0px;
     max-width: 294px;
     min-height: 39px;
     font-family: 'Inter';
@@ -106,7 +115,7 @@ min-height: 26px;
 font-size: 27px;
 line-height: 33px;
 text-align: center;
-padding-top: 23px;
+padding-top: 27px;
 padding-left: 44px;
   }
 }
@@ -122,7 +131,7 @@ padding-left: 44px;
     line-height: 22px;
     color: #FFFFFF;
     text-align: start;
-    padding-top: 10px;
+    padding-top: 12px;
 }
 
 @media screen and (max-width: 320px) {
@@ -146,7 +155,7 @@ background-repeat: no-repeat;
 background-origin: content-box;
 background-position: top;
 object-fit: contain;
-padding:14px 0px 0px 22px;
+padding:19px 0px 0px 22px;
 }
 
 
@@ -156,7 +165,9 @@ padding:14px 0px 0px 22px;
   padding: 30px 17px 2px 10px;
 max-width: 18px;
 min-height: 18px;
-}
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 
@@ -177,7 +188,7 @@ min-height: 18px;
 .pen {
   max-width: 7px;
   min-height: 7px;
-  padding: 6px 10px 0 0px;
+  padding: 0px;
 }
 }
 
@@ -213,16 +224,13 @@ min-height: 18px;
 
 
 .add-button__plus{
-
-  max-width: 150px;
-  min-height: 50px;
-background: url(./images/Rectangle-2.png);
-background-repeat: no-repeat;
-background-origin: content-box;
-background-position: top;
-object-fit: contain;
-padding: 74px 63px 0 66px;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
+  margin: 74px -2px 31px 0px;
 }
+
 .add-button__plus:hover{
   opacity: .6;
   transition: 1s linear 0.5s;
@@ -230,8 +238,8 @@ padding: 74px 63px 0 66px;
 
 @media screen and (max-width: 320px) {
   .add-button__plus {
-    max-width: 282px;
-    padding: 33px 0px 0px 0px;
+    margin: 33px 0 0 0;
+    width: 282px;
   }
 }
 
@@ -299,6 +307,7 @@ padding: 74px 63px 0 66px;
   min-height: 19px;
   max-width: 22px;
   object-fit: contain;
+
 }
 
 .like:hover{
@@ -310,12 +319,11 @@ padding: 74px 63px 0 66px;
   background-image: url(./images/like-active.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   background-origin: border-box;
   object-fit: contain;
-  min-height: 19px;
+  min-height: 22px;
   max-width: 22px;
-  padding-top: 8px;
   opacity: 1;
 }
 
@@ -367,6 +375,7 @@ padding: 74px 63px 0 66px;
     min-height: 322px;
     padding: 22px 22px; 
     margin: 123px 19px;
+    padding: 26px 0px 0px 22px;
   }
 }
 
@@ -374,7 +383,7 @@ padding: 74px 63px 0 66px;
 
 .form-title{
   margin: 0px;
-  padding: 0px 0px 54px 0px;
+  padding: 0px 0px 43px 0px;
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -384,7 +393,7 @@ padding: 74px 63px 0 66px;
 
 @media screen and (max-width: 320px) {
   .form-title{
-    padding: 0px 0px 75px 0px;
+    padding-bottom: 71px;
     font-size: 18px;
     line-height: 22px;
     max-width: 238px;    
@@ -407,10 +416,11 @@ padding: 74px 63px 0 66px;
 }
 
 .form__subtitle{
-  margin: 0 auto;
+  margin: 0px 0 30px 0;
   width: 358px;
   height: 27px;
-  padding-bottom: 13px;
+  border: none;
+  padding-bottom: 0px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -426,18 +436,23 @@ padding: 74px 63px 0 66px;
   }
 }
 
+@media screen and (max-width: 320px) {
+  .form__subtitl:last-child{
+    margin-top: 10px;
+  }
+}
 
 .action-button{
-  margin: 48px 0px 37px 0px;
-  max-width: 358px;
-  min-height: 50px;
-  background: #000000;
-  border-radius: 2px;
+    margin: 22px 0px 37px 0px;
+    max-width: 358px;
+    min-height: 50px;
+    background: #000000;
+    border-radius: 2px;
 }
 
 @media screen and (max-width: 320px) {
   .action-button{
-    margin: 45px 0px 25px 0px;
+    margin: 15px 0px 25px 0px;
     width: 238px;
     height: 46px;
     border-radius: 2px;
@@ -468,8 +483,8 @@ padding: 74px 63px 0 66px;
 
 .popup__close-button{
   position: absolute;
-  top: -60px;
-  right: -60px;
+  top: -40px;
+  right: -40px;
   background-image: url(images/popup__close-button.svg);
   width: 32px;
   height: 32px;
@@ -481,8 +496,8 @@ padding: 74px 63px 0 66px;
 @media screen and (max-width: 320px) {
   .popup__close-button{
     position: absolute;
-    top: -10px;
-    right: -10px;
+    top: -38px;
+    right: 1px;
     width: 20px;
     height: 20px;
   }
@@ -493,7 +508,7 @@ padding: 74px 63px 0 66px;
   transition: 1s linear 0.5s;
 }
 
-
 .popup_opened{
   display: block;
+}
 }
