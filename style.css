@@ -115,7 +115,7 @@ min-height: 26px;
 font-size: 27px;
 line-height: 33px;
 text-align: center;
-padding-top: 27px;
+padding-top: 23px;
 padding-left: 44px;
   }
 }
@@ -165,9 +165,7 @@ padding:19px 0px 0px 22px;
   padding: 30px 17px 2px 10px;
 max-width: 18px;
 min-height: 18px;
-display: flex;
-align-items: center;
-justify-content: center;
+}
 }
 
 
@@ -188,7 +186,7 @@ justify-content: center;
 .pen {
   max-width: 7px;
   min-height: 7px;
-  padding: 0px;
+  padding: 6px 10px 0 0px;
 }
 }
 
@@ -224,13 +222,16 @@ justify-content: center;
 
 
 .add-button__plus{
-  width: 150px;
-  height: 50px;
-  border: 2px solid #FFFFFF;
-  border-radius: 2px;
-  margin: 74px -2px 31px 0px;
-}
 
+  max-width: 150px;
+  min-height: 50px;
+background: url(./images/Rectangle-2.png);
+background-repeat: no-repeat;
+background-origin: content-box;
+background-position: top;
+object-fit: contain;
+padding: 74px 63px 0 66px;
+}
 .add-button__plus:hover{
   opacity: .6;
   transition: 1s linear 0.5s;
@@ -238,8 +239,8 @@ justify-content: center;
 
 @media screen and (max-width: 320px) {
   .add-button__plus {
-    margin: 33px 0 0 0;
-    width: 282px;
+    max-width: 282px;
+    padding: 33px 0px 0px 0px;
   }
 }
 
@@ -375,7 +376,6 @@ justify-content: center;
     min-height: 322px;
     padding: 22px 22px; 
     margin: 123px 19px;
-    padding: 26px 0px 0px 22px;
   }
 }
 
@@ -393,7 +393,7 @@ justify-content: center;
 
 @media screen and (max-width: 320px) {
   .form-title{
-    padding-bottom: 71px;
+    padding: 0px 0px 75px 0px;
     font-size: 18px;
     line-height: 22px;
     max-width: 238px;    
@@ -436,11 +436,6 @@ justify-content: center;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .form__subtitl:last-child{
-    margin-top: 10px;
-  }
-}
 
 .action-button{
     margin: 22px 0px 37px 0px;
@@ -452,7 +447,7 @@ justify-content: center;
 
 @media screen and (max-width: 320px) {
   .action-button{
-    margin: 15px 0px 25px 0px;
+    margin: 45px 0px 25px 0px;
     width: 238px;
     height: 46px;
     border-radius: 2px;
@@ -496,8 +491,8 @@ justify-content: center;
 @media screen and (max-width: 320px) {
   .popup__close-button{
     position: absolute;
-    top: -38px;
-    right: 1px;
+    top: -10px;
+    right: -10px;
     width: 20px;
     height: 20px;
   }
@@ -508,7 +503,7 @@ justify-content: center;
   transition: 1s linear 0.5s;
 }
 
+
 .popup_opened{
   display: block;
-}
 }
