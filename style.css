@@ -227,7 +227,7 @@ height: 18px;
   height: 50px;
   border: 2px solid #FFFFFF;
   border-radius: 2px;
-  padding: 74px 63px 0 66px;
+  margin-top: 72px;
 }
 .add-button__plus:hover{
   opacity: .6;
