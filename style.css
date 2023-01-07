@@ -48,7 +48,7 @@
 @media screen and (max-width: 620px) {
   .avatar {
     flex-direction: column;
-    padding-top: 39px;
+    padding-top: 42px;
   }
 }
 
@@ -60,6 +60,15 @@
   overflow: hidden;
   border-radius: 100%;
 }
+
+@media screen and (max-width: 320px) {
+  .profile__photo {
+    max-width: 119.5px;
+    min-height: 119.5px;
+  }
+}
+
+
 
 .profile__circle{
   border-radius: 50%;
@@ -106,7 +115,7 @@ min-height: 26px;
 font-size: 27px;
 line-height: 33px;
 text-align: center;
-padding-top: 23px;
+padding-top: 27px;
 padding-left: 44px;
   }
 }
@@ -213,16 +222,13 @@ min-height: 18px;
 
 
 .add-button__plus{
-
-  max-width: 150px;
-  min-height: 50px;
-background: url(./images/Rectangle-2.png);
-background-repeat: no-repeat;
-background-origin: content-box;
-background-position: top;
-object-fit: contain;
-padding: 74px 63px 0 66px;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
+  margin: 74px -2px 31px 0px;
 }
+
 .add-button__plus:hover{
   opacity: .6;
   transition: 1s linear 0.5s;
@@ -230,6 +236,7 @@ padding: 74px 63px 0 66px;
 
 @media screen and (max-width: 320px) {
   .add-button__plus {
+    margin: 33px 0 0 0;
     max-width: 282px;
     padding: 33px 0px 0px 0px;
   }
@@ -299,7 +306,7 @@ padding: 74px 63px 0 66px;
   min-height: 19px;
   max-width: 22px;
   object-fit: contain;
-  
+
 }
 
 .like:hover{
