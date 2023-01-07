@@ -43,23 +43,32 @@
 .avatar{
   display: flex;
   flex-direction: row;
-  padding-top: 35px;
+  padding-top: 39px;
 }
 @media screen and (max-width: 620px) {
   .avatar {
     flex-direction: column;
-    padding-top: 39px;
+    padding-top: 42px;
   }
 }
 
 .profile__photo {
   margin: 0 auto;
-  max-width: 127.5px;
-  min-height: 127.5px;
+  max-width: 118.5px;
+  min-height: 118.5px;
   padding: 0;
   overflow: hidden;
   border-radius: 100%;
 }
+
+@media screen and (max-width: 320px) {
+  .profile__photo {
+    max-width: 119.5px;
+    min-height: 119.5px;
+  }
+}
+
+
 
 .profile__circle{
   border-radius: 50%;
@@ -74,7 +83,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-left: 25px;
+    padding-left: 32px;
 }
 
 
@@ -88,7 +97,7 @@
 
 .profile__name{
   margin: 0 auto;
-  padding: 0;
+  padding: 5px 2px 0px 0px;
     max-width: 294px;
     min-height: 39px;
     font-family: 'Inter';
@@ -106,7 +115,7 @@ min-height: 26px;
 font-size: 27px;
 line-height: 33px;
 text-align: center;
-padding-top: 23px;
+padding-top: 27px;
 padding-left: 44px;
   }
 }
@@ -122,7 +131,7 @@ padding-left: 44px;
     line-height: 22px;
     color: #FFFFFF;
     text-align: start;
-    padding-top: 10px;
+    padding-top: 12px;
 }
 
 @media screen and (max-width: 320px) {
@@ -146,7 +155,7 @@ background-repeat: no-repeat;
 background-origin: content-box;
 background-position: top;
 object-fit: contain;
-padding:14px 0px 0px 22px;
+padding:19px 0px 0px 22px;
 }
 
 
@@ -156,6 +165,7 @@ padding:14px 0px 0px 22px;
   padding: 30px 17px 7px 10px;
 width: 18px;
 height: 18px;
+}
 }
 
 
@@ -173,6 +183,7 @@ height: 18px;
 }
 
 @media screen and (max-width: 620px) {
+.pen {
   width: 7px;
   height: 7px;
   padding: 6px 10px 0 0px;
@@ -211,12 +222,12 @@ height: 18px;
 
 
 .add-button__plus{
+
   width: 150px;
   height: 50px;
   border: 2px solid #FFFFFF;
   border-radius: 2px;
-  margin-top: 72px;
-
+  margin-top: 70px;
 }
 .add-button__plus:hover{
   opacity: .6;
@@ -258,10 +269,6 @@ height: 18px;
 
 
 
-
-
-
-
 .gallery__cards {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -294,6 +301,7 @@ height: 18px;
   min-height: 19px;
   max-width: 22px;
   object-fit: contain;
+
 }
 
 .like:hover{
@@ -305,12 +313,11 @@ height: 18px;
   background-image: url(./images/like-active.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   background-origin: border-box;
   object-fit: contain;
-  min-height: 19px;
+  min-height: 22px;
   max-width: 22px;
-  padding-top: 8px;
   opacity: 1;
 }
 
@@ -369,7 +376,7 @@ height: 18px;
 
 .form-title{
   margin: 0px;
-  padding: 0px 0px 54px 0px;
+  padding: 0px 0px 43px 0px;
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -379,7 +386,7 @@ height: 18px;
 
 @media screen and (max-width: 320px) {
   .form-title{
-    padding: 0px 0px 75px 0px;
+    padding: 4px 0px 71px 0px;
     font-size: 18px;
     line-height: 22px;
     max-width: 238px;    
@@ -402,10 +409,11 @@ height: 18px;
 }
 
 .form__subtitle{
-  margin: 0 auto;
+  margin: 0px 0 30px 0;
   width: 358px;
   height: 27px;
-  padding-bottom: 13px;
+  border: none;
+  padding-bottom: 0px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -423,16 +431,17 @@ height: 18px;
 
 
 .action-button{
-  margin: 48px 0px 37px 0px;
-  max-width: 358px;
-  min-height: 50px;
-  background: #000000;
-  border-radius: 2px;
+    margin: 22px 0px 37px 0px;
+    max-width: 358px;
+    min-height: 50px;
+    background: #000000;
+    border-radius: 2px;
 }
 
 @media screen and (max-width: 320px) {
   .action-button{
-    margin: 45px 0px 25px 0px;
+    margin-top: 15px;
+    margin-bottom: 25px;
     width: 238px;
     height: 46px;
     border-radius: 2px;
@@ -463,8 +472,8 @@ height: 18px;
 
 .popup__close-button{
   position: absolute;
-  top: -60px;
-  right: -60px;
+  top: -40px;
+  right: -40px;
   background-image: url(images/popup__close-button.svg);
   width: 32px;
   height: 32px;
@@ -476,10 +485,11 @@ height: 18px;
 @media screen and (max-width: 320px) {
   .popup__close-button{
     position: absolute;
-    top: -10px;
-    right: -10px;
+    top: -36px;
+    right: 0px;
     width: 20px;
     height: 20px;
+    background-size: 20px;
   }
 }
 
