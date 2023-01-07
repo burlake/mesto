@@ -1,125 +1,5 @@
-.button{
-  margin: 0;
-  padding: 0;
-}
 
-
-
-.button__edit{
-
-  width: 24px;
-  height: 24px;
-background: url(./images/Rectangle.png);
-background-repeat: no-repeat;
-background-origin: content-box;
-background-position: top;
-object-fit: contain;
-padding:19px 0px 0px 22px;
-}
-
-
-
-@media screen and (max-width: 620px) {
-.button__edit{
-  padding: 30px 17px 7px 10px;
-width: 18px;
-height: 18px;
-}
-}
-
-
-
-
-.button__edit:hover{
-  opacity: .6;
-  transition: 1s linear 0.5s;
-}
-
-.pen{
-  width: 10px;
-  height: 10px;
-  padding: 7px 6px 0 8px;
-}
-
-@media screen and (max-width: 620px) {
-.pen {
-  width: 7px;
-  height: 7px;
-  padding: 6px 10px 0 0px;
-}
-}
-
-
-
-.pen:hover{
-  opacity: .6;
-  transition: 1s linear 0.5s;
-}
-
-.profile__edit{
-  display: flex;
-  flex-direction: row;
-}
-
-
-.button__add{
-
-  width: 150px;
-  height: 50px;
-  border: 2px solid #FFFFFF;
-  border-radius: 2px;
-  margin-top: 70px;
-}
-.button__add:hover{
-  opacity: .6;
-  transition: 1s linear 0.5s;
-}
-
-@media screen and (max-width: 320px) {
-  .button__add {
-    width: 282px;
-    margin-top: 31px;
-  }
-}
-
-.plus{
-  margin: 0 auto;
-  max-width: 22px;
-  min-height: 22px;
-  padding: 13px 0 0 0;
-  display: flex;
-  align-items: center;
-}
-
-.plus:hover{
-  opacity: .6;
-  transition: 1s linear 0.5s;
-}
-
-@media screen and (max-width: 320px) {
-  .plus {
-    max-width: 17px;
-    min-height: 17px;
-    display: flex;
-    align-items: center;
-  }
-}
-
-
-
-
-
-
-.container {
-  position: relative;
-  padding: 25px 20px 24px 21px;
-  background: #FFFFFF;
-  border-radius: 0 0 10px 10px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.gallery__img{
+.gallery__img {
   width: 100%;
   min-height: 282px;
   border-radius: 10px 10px 0 0;
@@ -127,19 +7,19 @@ height: 18px;
   overflow: hidden;
 }
 
-.like{
+.like {
   min-height: 19px;
   max-width: 22px;
   object-fit: contain;
 
 }
 
-.like:hover{
+.like:hover {
   opacity: .5;
   transition: 1s linear 0.5s;
 }
 
-.like:active{
+.like:active {
   background-image: url(./images/like-active.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -166,7 +46,7 @@ height: 18px;
   overflow: hidden;
 }
 
-.popup{
+.popup {
   position: fixed;
   top: 0px;
   right: 0px;
@@ -178,7 +58,7 @@ height: 18px;
   display: none;
 }
 
-.popup__content{
+.popup__content {
   margin: 0px;
   width: 430px;
   min-height: 330px;
@@ -197,14 +77,14 @@ height: 18px;
   .popup__content {
     max-width: 282px;
     min-height: 322px;
-    padding: 22px 22px; 
+    padding: 22px 22px;
     margin: 123px 19px;
   }
 }
 
 
 
-.form-title{
+.form-title {
   margin: 0px;
   padding: 0px 0px 43px 0px;
   font-style: normal;
@@ -215,15 +95,15 @@ height: 18px;
 }
 
 @media screen and (max-width: 320px) {
-  .form-title{
+  .form-title {
     padding: 4px 0px 71px 0px;
     font-size: 18px;
     line-height: 22px;
-    max-width: 238px;    
+    max-width: 238px;
   }
 }
 
-.subtitle{
+.subtitle {
   max-width: 358px;
   min-height: 84px;
   display: flex;
@@ -233,12 +113,12 @@ height: 18px;
 }
 
 @media screen and (max-width: 320px) {
-  .subtitle{
+  .subtitle {
     max-width: 238px;
   }
 }
 
-.form__subtitle{
+.form__subtitle {
   margin: 0px 0 30px 0;
   width: 358px;
   height: 27px;
@@ -254,22 +134,22 @@ height: 18px;
 }
 
 @media screen and (max-width: 320px) {
-  .form__subtitle{
+  .form__subtitle {
     width: 238px;
   }
 }
 
 
-.action-button{
-    margin: 22px 0px 37px 0px;
-    max-width: 358px;
-    min-height: 50px;
-    background: #000000;
-    border-radius: 2px;
+.action-button {
+  margin: 22px 0px 37px 0px;
+  max-width: 358px;
+  min-height: 50px;
+  background: #000000;
+  border-radius: 2px;
 }
 
 @media screen and (max-width: 320px) {
-  .action-button{
+  .action-button {
     margin-top: 15px;
     margin-bottom: 25px;
     width: 238px;
@@ -278,13 +158,13 @@ height: 18px;
   }
 }
 
-.action-button:hover{
+.action-button:hover {
   opacity: .6;
   transition: 1s linear 0.5s;
 }
 
 
-.action-button__text{
+.action-button__text {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -294,13 +174,13 @@ height: 18px;
 }
 
 @media screen and (max-width: 320px) {
-  .action-button__text{
+  .action-button__text {
     font-size: 14px;
     line-height: 17px;
   }
 }
 
-.popup__close-button{
+.popup__close-button {
   position: absolute;
   top: -40px;
   right: -40px;
@@ -313,7 +193,7 @@ height: 18px;
 }
 
 @media screen and (max-width: 320px) {
-  .popup__close-button{
+  .popup__close-button {
     position: absolute;
     top: -36px;
     right: 0px;
@@ -323,12 +203,12 @@ height: 18px;
   }
 }
 
-.popup__close-button:hover{
+.popup__close-button:hover {
   opacity: .6;
   transition: 1s linear 0.5s;
 }
 
 
-.popup_opened{
+.popup_opened {
   display: block;
 }
