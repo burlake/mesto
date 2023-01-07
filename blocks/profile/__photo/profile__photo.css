@@ -1,0 +1,15 @@
+.profile__photo {
+    margin: 0 auto;
+    max-width: 118.5px;
+    min-height: 118.5px;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 100%;
+  }
+  
+  @media screen and (max-width: 320px) {
+    .profile__photo {
+      max-width: 119.5px;
+      min-height: 119.5px;
+    }
+  }

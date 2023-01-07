@@ -1,0 +1,22 @@
+.profile__edit_plus {
+    margin: 0 auto;
+    max-width: 22px;
+    min-height: 22px;
+    padding: 13px 0 0 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile__edit_plus:hover {
+    opacity: .6;
+    transition: 1s linear 0.5s;
+  }
+  
+  @media screen and (max-width: 320px) {
+    .profile__edit_plus {
+      max-width: 17px;
+      min-height: 17px;
+      display: flex;
+      align-items: center;
+    }
+  }
