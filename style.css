@@ -237,7 +237,7 @@ height: 18px;
 @media screen and (max-width: 320px) {
   .add-button__plus {
     width: 282px;
-    padding: 33px 0px 0px 0px;
+    margin-top: 10px;
   }
 }
 
