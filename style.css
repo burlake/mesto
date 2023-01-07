@@ -310,12 +310,12 @@ padding: 74px 63px 0 66px;
   background-image: url(./images/like-active.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   background-origin: border-box;
   object-fit: contain;
-  min-height: 19px;
+  min-height: 22px;
   max-width: 22px;
-  padding-top: 8px;
+  padding-top: 0px;
   opacity: 1;
 }
 
