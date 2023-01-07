@@ -1,4 +1,4 @@
-.action-button {
+.form__button {
     margin: 22px 0px 37px 0px;
     max-width: 358px;
     min-height: 50px;
@@ -7,7 +7,7 @@
   }
   
   @media screen and (max-width: 320px) {
-    .action-button {
+    .form__button {
       margin-top: 15px;
       margin-bottom: 25px;
       width: 238px;
@@ -16,7 +16,7 @@
     }
   }
   
-  .action-button:hover {
+  .form__button:hover {
     opacity: 0.6;
     transition: 1s linear 0.5s;
   }
