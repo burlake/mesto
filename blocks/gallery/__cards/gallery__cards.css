@@ -9,21 +9,6 @@
   border-radius: 10px;
 }
 
-
-@media screen and (max-width: 1024px) {
-  .gallery__cards {
-    min-height: 225px;
-
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .gallery__cards {
-    min-height: 264px;
-
-  }
-}
-
 @media screen and (max-width: 400px) {
   .gallery__cards {
     min-height: 361px;
