@@ -43,32 +43,23 @@
 .avatar{
   display: flex;
   flex-direction: row;
-  padding-top: 39px;
+  padding-top: 35px;
 }
 @media screen and (max-width: 620px) {
   .avatar {
     flex-direction: column;
-    padding-top: 42px;
+    padding-top: 39px;
   }
 }
 
 .profile__photo {
   margin: 0 auto;
-  max-width: 118.5px;
-  min-height: 118.5px;
+  max-width: 127.5px;
+  min-height: 127.5px;
   padding: 0;
   overflow: hidden;
   border-radius: 100%;
 }
-
-@media screen and (max-width: 320px) {
-  .profile__photo {
-    max-width: 119.5px;
-    min-height: 119.5px;
-  }
-}
-
-
 
 .profile__circle{
   border-radius: 50%;
@@ -83,7 +74,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-left: 32px;
+    padding-left: 25px;
 }
 
 
@@ -97,7 +88,7 @@
 
 .profile__name{
   margin: 0 auto;
-  padding: 5px 2px 0px 0px;
+  padding: 0;
     max-width: 294px;
     min-height: 39px;
     font-family: 'Inter';
@@ -115,7 +106,7 @@ min-height: 26px;
 font-size: 27px;
 line-height: 33px;
 text-align: center;
-padding-top: 27px;
+padding-top: 23px;
 padding-left: 44px;
   }
 }
@@ -131,7 +122,7 @@ padding-left: 44px;
     line-height: 22px;
     color: #FFFFFF;
     text-align: start;
-    padding-top: 12px;
+    padding-top: 10px;
 }
 
 @media screen and (max-width: 320px) {
@@ -155,7 +146,7 @@ background-repeat: no-repeat;
 background-origin: content-box;
 background-position: top;
 object-fit: contain;
-padding:19px 0px 0px 22px;
+padding:14px 0px 0px 22px;
 }
 
 
@@ -165,7 +156,6 @@ padding:19px 0px 0px 22px;
   padding: 30px 17px 7px 10px;
 width: 18px;
 height: 18px;
-}
 }
 
 
@@ -183,7 +173,6 @@ height: 18px;
 }
 
 @media screen and (max-width: 620px) {
-.pen {
   width: 7px;
   height: 7px;
   padding: 6px 10px 0 0px;
@@ -222,12 +211,12 @@ height: 18px;
 
 
 .add-button__plus{
-
   width: 150px;
   height: 50px;
   border: 2px solid #FFFFFF;
   border-radius: 2px;
   margin-top: 72px;
+
 }
 .add-button__plus:hover{
   opacity: .6;
@@ -305,7 +294,6 @@ height: 18px;
   min-height: 19px;
   max-width: 22px;
   object-fit: contain;
-
 }
 
 .like:hover{
@@ -317,11 +305,12 @@ height: 18px;
   background-image: url(./images/like-active.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-origin: border-box;
   object-fit: contain;
-  min-height: 22px;
+  min-height: 19px;
   max-width: 22px;
+  padding-top: 8px;
   opacity: 1;
 }
 
@@ -380,7 +369,7 @@ height: 18px;
 
 .form-title{
   margin: 0px;
-  padding: 0px 0px 43px 0px;
+  padding: 0px 0px 54px 0px;
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -413,11 +402,10 @@ height: 18px;
 }
 
 .form__subtitle{
-  margin: 0px 0 30px 0;
+  margin: 0 auto;
   width: 358px;
   height: 27px;
-  border: none;
-  padding-bottom: 0px;
+  padding-bottom: 13px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -435,11 +423,11 @@ height: 18px;
 
 
 .action-button{
-    margin: 22px 0px 37px 0px;
-    max-width: 358px;
-    min-height: 50px;
-    background: #000000;
-    border-radius: 2px;
+  margin: 48px 0px 37px 0px;
+  max-width: 358px;
+  min-height: 50px;
+  background: #000000;
+  border-radius: 2px;
 }
 
 @media screen and (max-width: 320px) {
@@ -475,8 +463,8 @@ height: 18px;
 
 .popup__close-button{
   position: absolute;
-  top: -40px;
-  right: -40px;
+  top: -60px;
+  right: -60px;
   background-image: url(images/popup__close-button.svg);
   width: 32px;
   height: 32px;
