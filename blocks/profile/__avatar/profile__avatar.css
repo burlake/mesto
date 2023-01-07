@@ -4,7 +4,7 @@
     padding-top: 39px;
   }
   @media screen and (max-width: 620px) {
-    .avatar {
+    .profile__avatar {
       flex-direction: column;
       padding-top: 42px;
       flex-direction: column;
