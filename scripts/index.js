@@ -1,69 +1,49 @@
 //попап
-const popup = document.querySelector('.popup');
-const aboutPopup = document.querySelector('.popup_about');
+const popup = document.querySelector(".popup");
+const aboutPopup = document.querySelector(".popup_about");
 //форма и инпуты
-const formElement = document.querySelector('.subtitle');
-//const nameInput = document.querySelector('.form__subtitle_name');
-//const jobInput = document.querySelector('.form__subtitle_job');
-//профиль юзера
-//const popupNameInput = document.querySelector('.profile__name');
-//const popupDescrInput = document.querySelector('.profile__description');
-//кнопки
-const aboutButton = document.querySelector('.edit-button');
-const aboutCloseButton = aboutPopup.querySelector('.popup__close-button');
+const formElement = document.querySelector(".subtitle");
+const aboutButton = document.querySelector(".button__edit");
+const aboutCloseButton = aboutPopup.querySelector(".popup__close-button");
 
 //открытие попапа
-aboutButton.addEventListener('click', (event) => {
+aboutButton.addEventListener("click", (event) => {
     event.preventDefault();
     console.log(event);
-    aboutPopup.classList.add('popup_opened');
-})
+    aboutPopup.classList.add("popup_opened");
+});
 
 //закрытие попапа
-aboutCloseButton.addEventListener('click', (event) => {
+aboutCloseButton.addEventListener("click", (event) => {
     event.preventDefault();
     console.log(event);
-    aboutPopup.classList.remove('popup_opened');
-})
+    aboutPopup.classList.remove("popup_opened");
+});
 //закрытие попапа за пределами кнопки popup__close-button
 //aboutPopup.addEventListener('click', (event) => {
-    //event.preventDefault();
-    //console.log(event.target , event.currentTarget);
-    //if(event.target === event.currentTarget){
-        //aboutPopup.classList.remove('popup_opened')
-    //};
+//event.preventDefault();
+//console.log(event.target , event.currentTarget);
+//if(event.target === event.currentTarget){
+//aboutPopup.classList.remove('popup_opened')
+//};
 //})
-
-//функция обработки отправки формы
-//function handleFormSubmit (event) {
-    //event.preventDefault(); 
-    //popupNameInput.textContent = nameInput.value;
-    //popupDescrInput.textContent = jobInput.value;
-    //SaveButton();
-//}
-//let SaveButton = document.querySelector('.action-button');
-//SaveButton.onclick = function (event){
-    //event.preventDefault(); 
-    //console.log('work');
-//}
 
 //функция закрытия попапа
 function closePopup() {
     aboutPopup.classList.remove("popup_opened");
-  } 
+}
 
-let userName = document.querySelector ('.profile__name')
-let userJob = document.querySelector ('.profile__description')
-let nameInput = document.querySelector('.form__subtitle_name ');
-let jobInput = document.querySelector('.form__subtitle_job');
+//функция обработки отправки формы
+let userName = document.querySelector(".profile__name");
+let userJob = document.querySelector(".profile__description");
+let nameInput = document.querySelector(".form__subtitle_name ");
+let jobInput = document.querySelector(".form__subtitle_job");
 
 function handleFormSubmit(event) {
     event.preventDefault();
-    userName.textContent = nameInput.value; 
+    userName.textContent = nameInput.value;
     userJob.textContent = jobInput.value;
     closePopup();
-  }
-  
-  formElement.addEventListener('submit', handleFormSubmit);
+}
 
-
+formElement.addEventListener("submit", handleFormSubmit);
