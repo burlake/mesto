@@ -375,6 +375,7 @@ justify-content: center;
     min-height: 322px;
     padding: 22px 22px; 
     margin: 123px 19px;
+    padding: 26px 0px 0px 22px;
   }
 }
 
@@ -392,7 +393,7 @@ justify-content: center;
 
 @media screen and (max-width: 320px) {
   .form-title{
-    padding: 0px 0px 75px 0px;
+    padding-bottom: 68px;
     font-size: 18px;
     line-height: 22px;
     max-width: 238px;    
@@ -435,6 +436,11 @@ justify-content: center;
   }
 }
 
+@media screen and (max-width: 320px) {
+  .form__subtitl:last-child{
+    margin-top: 10px;
+  }
+}
 
 .action-button{
     margin: 22px 0px 37px 0px;
@@ -490,8 +496,8 @@ justify-content: center;
 @media screen and (max-width: 320px) {
   .popup__close-button{
     position: absolute;
-    top: -10px;
-    right: -10px;
+    top: -38px;
+    right: 1px;
     width: 20px;
     height: 20px;
   }
@@ -502,7 +508,7 @@ justify-content: center;
   transition: 1s linear 0.5s;
 }
 
-
 .popup_opened{
   display: block;
+}
 }
