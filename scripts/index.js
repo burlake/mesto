@@ -1,9 +1,9 @@
 //попап
 const popup = document.querySelector(".popup");
-const aboutPopup = document.querySelector(".popup__about");
+const aboutPopup = document.querySelector(".popup-about");
 //форма и инпуты
 const formElement = document.querySelector(".subtitle");
-const aboutButton = document.querySelector(".button__edit");
+const aboutButton = document.querySelector(".profile__edit-button");
 const aboutCloseButton = aboutPopup.querySelector(".popup__close-button");
 
 //открытие попапа
@@ -36,8 +36,8 @@ function closePopup() {
 //функция обработки отправки формы
 let userName = document.querySelector(".profile__name");
 let userJob = document.querySelector(".profile__description");
-let nameInput = document.querySelector(".form__subtitle_name ");
-let jobInput = document.querySelector(".form__subtitle_job");
+let nameInput = document.querySelector(".form-subtitle__name");
+let jobInput = document.querySelector(".form-subtitle__job");
 
 function handleFormSubmit(event) {
     event.preventDefault();

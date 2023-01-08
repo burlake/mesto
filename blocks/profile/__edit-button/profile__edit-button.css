@@ -1,4 +1,4 @@
-.button__edit {
+.profile__edit-button {
     width: 24px;
     height: 24px;
     background: url(../../../images/Rectangle.png);
@@ -10,14 +10,14 @@
 }
 
 @media screen and (max-width: 620px) {
-    .button__edit {
+    .profile__edit-button {
         padding: 30px 17px 7px 10px;
         width: 18px;
         height: 18px;
     }
 }
 
-.button__edit:hover {
+.profile__edit-button:hover {
     opacity: .6;
     transition: 1s linear 0.5s;
 }
