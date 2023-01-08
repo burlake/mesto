@@ -1,4 +1,4 @@
-.form-button__text {
+.form__button_text {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -8,7 +8,7 @@
   }
   
   @media screen and (max-width: 320px) {
-    .form-button__text {
+    .form__button_text {
       font-size: 14px;
       line-height: 17px;
     }

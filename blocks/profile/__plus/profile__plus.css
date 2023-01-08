@@ -1,4 +1,4 @@
-.profile__add-button_plus {
+.profile__plus {
     margin: 0 auto;
     max-width: 22px;
     min-height: 22px;
@@ -7,13 +7,13 @@
     align-items: center;
   }
   
-  .profile__add-button_plus:hover {
+  .profile__plus:hover {
     opacity: .6;
     transition: 1s linear 0.5s;
   }
   
   @media screen and (max-width: 320px) {
-    .profile__add-button_plus {
+    .profile__plus {
       max-width: 17px;
       min-height: 17px;
       display: flex;
