@@ -5,7 +5,7 @@ const aboutPopup = document.querySelector(".popup-about");
 const formElement = document.querySelector(".form"); 
 const aboutButton = document.querySelector(".profile__edit-button"); 
 const aboutCloseButton =  document.querySelector(".popup__close-button");
-// для инпуты 
+//инпуты 
 let userName = document.querySelector(".profile__name");
 let userJob = document.querySelector(".profile__description");
 let nameInput = document.querySelector(".form__subtitle_name");
