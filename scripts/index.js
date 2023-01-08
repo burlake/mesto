@@ -9,19 +9,20 @@ const editProfile = document.querySelector(".profile__edit-button");
 const popupClose = document.querySelector(".popup__close-button");
 
 //открытие попапа
+editProfile.addEventListener("click", openPopup);
 function openPopup() {
     popup.classList.add("popup_opened");
     nameInput.value = userName.textContent;
     jobInput.value = userJob.textContent;
   }
-  editProfile.addEventListener("click", openPopup);
 
 
 //закрытиe попапа
+popupClose.addEventListener("click", closePopup);
 function closePopup() {
     popup.classList.remove("popup__opened");
 }
-popupClose.addEventListener("click", closePopup);
+
 
 //функция обработки отправки формы
 let userName = document.querySelector(".profile__name");
