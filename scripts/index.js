@@ -1,19 +1,21 @@
 //попап 
 const popup = document.querySelector(".popup"); 
-const aboutPopup = document.querySelector(".popup-about"); 
+//const aboutPopup = document.querySelector(".popup-about"); 
 //форма и инпуты 
 const formElement = document.querySelector(".form"); 
 const aboutButton = document.querySelector(".profile__edit-button"); 
 const aboutCloseButton = aboutPopup.querySelector(".popup__close-button");
  
 //открытие попапа 
-aboutButton.addEventListener("click", (event) => { 
-    aboutPopup.classList.add("popup__opened"); 
-}); 
+popup.addEventListener("click", (event) => { 
+    popup.classList.add("popup__opened");
+    nameInput.value = userName.textContent;
+    jobInput.value = userJob.textContent;
+});
  
 //закрытие попапа 
 aboutCloseButton.addEventListener("click", (event) => { 
-    aboutPopup.classList.remove("popup__opened"); 
+    popup.classList.remove("popup__opened"); 
 }); 
 
 //функция обработки отправки формы
