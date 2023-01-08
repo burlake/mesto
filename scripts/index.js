@@ -7,16 +7,18 @@ const aboutButton = document.querySelector(".profile__edit-button");
 const aboutCloseButton = aboutPopup.querySelector(".popup__close-button");
  
 //открытие попапа 
-aboutButton.addEventListener("click", (event) => { 
-    popup.classList.add("popup__opened");
+function openPopup() {
+    popup.classList.add("popup_opened");
     nameInput.value = userName.textContent;
     jobInput.value = userJob.textContent;
-});
- 
-//закрытие попапа 
-aboutCloseButton.addEventListener("click", (event) => { 
-    popup.classList.remove("popup__opened"); 
-}); 
+  }
+  aboutButton.addEventListener("click", openPopup);
+
+//закрытие попапа
+function closePopup() {
+    popup.classList.remove("popup_opened");
+  }
+aboutCloseButton.addEventListener("click", closePopup); 
 
 //функция обработки отправки формы
 let userName = document.querySelector(".profile__name");
