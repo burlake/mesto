@@ -7,7 +7,7 @@ const aboutButton = document.querySelector(".profile__edit-button");
 const aboutCloseButton = aboutPopup.querySelector(".popup__close-button");
  
 //открытие попапа 
-popup.addEventListener("click", (event) => { 
+aboutButton.addEventListener("click", (event) => { 
     popup.classList.add("popup__opened");
     nameInput.value = userName.textContent;
     jobInput.value = userJob.textContent;
