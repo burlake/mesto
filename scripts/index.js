@@ -16,7 +16,7 @@ function openPopup(aboutPopup) {
     aboutPopup.classList.add("popup_opened");
 };
 
-aboutButton.addEventListener("click", function () {
+aboutButton.addEventListener("click", function() {
     nameInput.value = userName.textContent;
     jobInput.value = userJob.textContent;
     openPopup(aboutPopup);
