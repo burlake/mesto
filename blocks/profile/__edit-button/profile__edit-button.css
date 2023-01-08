@@ -19,4 +19,5 @@
 
 .profile__edit-button:hover {
     opacity: .6;
+    transition: 1s linear 0.5s;
 }
