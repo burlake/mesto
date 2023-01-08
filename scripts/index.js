@@ -1,37 +1,27 @@
 //попап
 const popup = document.querySelector(".popup");
-const aboutPopup = document.querySelector(".popup-about");
+
 //форма и инпуты
 const formElement = document.querySelector(".form");
-const aboutButton = document.querySelector(".profile__edit-button");
-const aboutCloseButton = aboutPopup.querySelector(".popup__close-button");
+
+//кнопки
+const editProfile = document.querySelector(".profile__edit-button");
+const popupClose = document.querySelector(".popup__close-button");
 
 //открытие попапа
-aboutButton.addEventListener("click", (event) => {
-    event.preventDefault();
-    console.log(event);
-    aboutPopup.classList.add("popup__opened");
-});
+function openPopup() {
+    popup.classList.add("popup_opened");
+    nameInput.value = userName.textContent;
+    jobInput.value = userJob.textContent;
+  }
+  editProfile.addEventListener("click", openPopup);
 
-//закрытие попапа
-aboutCloseButton.addEventListener("click", (event) => {
-    event.preventDefault();
-    console.log(event);
-    aboutPopup.classList.remove("popup__opened");
-});
-//закрытие попапа за пределами кнопки popup__close-button
-//aboutPopup.addEventListener('click', (event) => {
-//event.preventDefault();
-//console.log(event.target , event.currentTarget);
-//if(event.target === event.currentTarget){
-//aboutPopup.classList.remove('popup__opened')
-//};
-//})
 
-//функция закрытия попапа
+//закрытиe попапа
 function closePopup() {
-    aboutPopup.classList.remove("popup__opened");
+    popup.classList.remove("popup__opened");
 }
+popupClose.addEventListener("click", closePopup);
 
 //функция обработки отправки формы
 let userName = document.querySelector(".profile__name");
@@ -45,5 +35,19 @@ function handleFormSubmit(event) {
     userJob.textContent = jobInput.value;
     closePopup();
 }
-
 formElement.addEventListener("submit", handleFormSubmit);
+
+//закрытик по вебинару 
+//const aboutPopup = document.querySelector(".popup-about");
+//открытие попапа 
+//aboutButton.addEventListener("click", (event) => {
+    //aboutPopup.classList.add("popup__opened");
+//});
+//закрытие попапа за пределами кнопки popup__close-button
+//aboutPopup.addEventListener('click', (event) => {
+//event.preventDefault();
+//console.log(event.target , event.currentTarget);
+//if(event.target === event.currentTarget){
+//aboutPopup.classList.remove('popup__opened')
+//};
+//})
