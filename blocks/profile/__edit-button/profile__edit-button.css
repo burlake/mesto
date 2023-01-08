@@ -1,0 +1,23 @@
+.profile__edit-button {
+    width: 24px;
+    height: 24px;
+    background: url(../../../images/Rectangle.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: top;
+    object-fit: contain;
+    padding: 19px 0px 0px 22px;
+}
+
+@media screen and (max-width: 620px) {
+    .profile__edit-button {
+        padding: 30px 17px 7px 10px;
+        width: 18px;
+        height: 18px;
+    }
+}
+
+.profile__edit-button {
+    opacity: .6;
+    transition: 1s linear 0.5s;
+}
