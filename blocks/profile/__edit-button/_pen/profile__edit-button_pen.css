@@ -1,18 +1,18 @@
-.button__edit_pen {
+.profile__edit-button_pen {
     width: 10px;
     height: 10px;
     padding: 7px 6px 0 8px;
   }
   
   @media screen and (max-width: 620px) {
-    .button__edit_pen {
+    .profile__edit-button_pen {
       width: 7px;
       height: 7px;
       padding: 6px 10px 0 0px;
     }
   }
   
-  .button__edit_pen:hover {
+  .profile__edit-button_pen {
     opacity: .6;
     transition: 1s linear 0.5s;
   }
