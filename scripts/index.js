@@ -4,7 +4,7 @@ const popup = document.querySelector(".popup");
 //форма и инпуты 
 const formElement = document.querySelector(".form"); 
 const aboutButton = document.querySelector(".profile__edit-button"); 
-const aboutCloseButton = aboutPopup.querySelector(".popup__close-button");
+const aboutCloseButton =  document.querySelector(".popup__close-button");
  
 //открытие попапа 
 function openPopup() {
