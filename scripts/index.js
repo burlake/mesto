@@ -36,8 +36,8 @@ function closePopup() {
 //функция обработки отправки формы
 let userName = document.querySelector(".profile__name");
 let userJob = document.querySelector(".profile__description");
-let nameInput = document.querySelector(".form-subtitle__name");
-let jobInput = document.querySelector(".form-subtitle__job");
+let nameInput = document.querySelector(".form__subtitle_name");
+let jobInput = document.querySelector(".form__subtitle_job");
 
 function handleFormSubmit(event) {
     event.preventDefault();
