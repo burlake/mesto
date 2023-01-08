@@ -1,6 +1,5 @@
 //попап 
 const popup = document.querySelector(".popup"); 
-//const aboutPopup = document.querySelector(".popup-about"); 
 //форма и инпуты 
 const formElement = document.querySelector(".form"); 
 const aboutButton = document.querySelector(".profile__edit-button"); 
