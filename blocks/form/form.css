@@ -1,4 +1,4 @@
-.subtitle {
+.form {
     max-width: 358px;
     min-height: 84px;
     display: flex;
@@ -7,7 +7,7 @@
   }
   
   @media screen and (max-width: 620px) {
-    .subtitle {
+    .form {
       max-width: 238px;
     }
   }
