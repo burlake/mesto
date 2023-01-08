@@ -6,20 +6,19 @@ const aboutButton = document.querySelector(".profile__edit-button");
 const aboutCloseButton =  document.querySelector(".popup__close-button");
  
 //открытие попапа 
-aboutButton.addEventListener("click", openPopup);
-function openPopup() {
+
+function openPopup(popup) {
     popup.classList.add("popup_opened");
     nameInput.value = userName.textContent;
     jobInput.value = userJob.textContent;
   }
-
+  aboutButton.addEventListener("click", openPopup);
 
 //закрытие попапа
-aboutCloseButton.addEventListener("click", closePopup); 
 function closePopup() {
     popup.classList.remove("popup_opened");
   }
-
+  aboutCloseButton.addEventListener("click", closePopup); 
 
 //функция обработки отправки формы
 let userName = document.querySelector(".profile__name");
