@@ -12,7 +12,7 @@
     }
   }
   
-  .profile__edit-button_pen {
+  .profile__edit-button_pen:hover {
     opacity: .6;
     transition: 1s linear 0.5s;
   }
