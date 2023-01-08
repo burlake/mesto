@@ -12,8 +12,8 @@ let nameInput = document.querySelector(".form__subtitle_name");
 let jobInput = document.querySelector(".form__subtitle_job");
  
 //открытие попапа 
-function openPopup(popup) {
-    popup.classList.add("popup_opened");
+function openPopup(aboutPopup) {
+    aboutPopup.classList.add("popup_opened");
 };
 
 aboutButton.addEventListener("click", function () {
