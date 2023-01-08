@@ -30,9 +30,8 @@
 @import url(../blocks/popup/__content/popup__content.css);
 @import url(../blocks/popup/__close-button/popup__close-button.css);
 @import url(../blocks/popup/__opened/popup__opened.css);
-@import url(../blocks/form/form.css);
-@import url(../blocks/form/__title/form__title.css);
-@import url(../blocks/form/__subtitle/form__subtitle.css);
-@import url(../blocks/form/__button/form__button.css);
-@import url(../blocks/form/__button/__text/form__button_text.css);
+@import url(../blocks/form/form-title.css);
+@import url(../blocks/form/form-subtitle.css);
+@import url(../blocks/form/form-button/form-button.css);
+@import url(../blocks/form/form-button/__text/form-button__text.css);
 @import url(../blocks/subtitle/subtitle.css);
