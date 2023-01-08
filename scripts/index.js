@@ -1,18 +1,27 @@
 //попап 
 const popup = document.querySelector(".popup"); 
-//форма и инпуты 
+const aboutPopup = document.querySelector(".popup-about");
+//форма
 const formElement = document.querySelector(".form"); 
 const aboutButton = document.querySelector(".profile__edit-button"); 
 const aboutCloseButton =  document.querySelector(".popup__close-button");
+// для инпуты 
+let userName = document.querySelector(".profile__name");
+let userJob = document.querySelector(".profile__description");
+let nameInput = document.querySelector(".form__subtitle_name");
+let jobInput = document.querySelector(".form__subtitle_job");
  
 //открытие попапа 
 
 function openPopup(popup) {
     popup.classList.add("popup_opened");
+};
+
+aboutButton.addEventListener("click", function () {
     nameInput.value = userName.textContent;
     jobInput.value = userJob.textContent;
-  }
-  aboutButton.addEventListener("click", openPopup);
+    openPopup(aboutPopup);
+});
 
 //закрытие попапа
 function closePopup() {
@@ -21,11 +30,6 @@ function closePopup() {
   aboutCloseButton.addEventListener("click", closePopup); 
 
 //функция обработки отправки формы
-let userName = document.querySelector(".profile__name");
-let userJob = document.querySelector(".profile__description");
-let nameInput = document.querySelector(".form__subtitle_name");
-let jobInput = document.querySelector(".form__subtitle_job");
-
 function handleFormSubmit(event) {
     event.preventDefault();
     userName.textContent = nameInput.value;
@@ -35,7 +39,7 @@ function handleFormSubmit(event) {
 formElement.addEventListener("submit", handleFormSubmit);
 
 //закрытик по вебинару 
-//const aboutPopup = document.querySelector(".popup-about");
+
 //открытие попапа 
 //aboutButton.addEventListener("click", (event) => {
     //aboutPopup.classList.add("popup__opened");
