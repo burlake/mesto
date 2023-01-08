@@ -1,6 +1,6 @@
 //попап 
 const popup = document.querySelector(".popup"); 
-const aboutPopup = document.querySelector(".popup-about");
+//const aboutPopup = document.querySelector(".popup-about");
 //форма
 const formElement = document.querySelector(".form"); 
 const aboutButton = document.querySelector(".profile__edit-button"); 
@@ -12,14 +12,14 @@ let nameInput = document.querySelector(".form__subtitle_name");
 let jobInput = document.querySelector(".form__subtitle_job");
  
 //открытие попапа 
-function openPopup(aboutPopup) {
-    aboutPopup.classList.add("popup_opened");
+function openPopup(popup) {
+    popup.classList.add("popup_opened");
 };
 
 aboutButton.addEventListener("click", function() {
     nameInput.value = userName.textContent;
     jobInput.value = userJob.textContent;
-    openPopup(aboutPopup);
+    openPopup(popup);
 });
 
 //закрытие попапа
