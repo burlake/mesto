@@ -9,6 +9,7 @@
   background-position: center center;
   background-size: 22px;
   object-fit: contain;
+  padding: 11px;
 }
 
 .gallery__like:hover {
