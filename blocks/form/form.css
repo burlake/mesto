@@ -1,6 +1,5 @@
 .form {
     max-width: 358px;
-    min-height: 84px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
