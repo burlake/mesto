@@ -20,11 +20,6 @@
 .gallery__like:active {
   background-image: url(../../../images/like-active.svg);
   background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-origin: border-box;
-  object-fit: contain;
   min-height: 22px;
-  max-width: 22px;
   opacity: 1;
 }
