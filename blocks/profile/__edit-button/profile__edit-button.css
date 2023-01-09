@@ -3,12 +3,11 @@
     width: 24px;
     height: 24px;
     border: 1px solid #FFFFFF;
-    background: url(../../../images/Pen.svg);
+    background-image: url(../../../images/Pen.svg);
     background-repeat: no-repeat;
     background-origin: content-box;
     background-size: 10px;
     object-fit: contain;
-    z-index: 1;
 }
 
 @media screen and (max-width: 620px) {
