@@ -1,19 +1,24 @@
 .profile__edit-button {
-    width: 24px;
-    height: 24px;
-    background: url(../../../images/Rectangle.png);
+    margin: 19px 0px 6px 16px;
+    padding: 11px;
+    max-width: 24px;
+    min-height: 24px;
+    border: 1px solid #FFFFFF;
+    background: url(../../../images/Pen.svg);
     background-repeat: no-repeat;
     background-origin: content-box;
-    background-position: top;
+    background-position: center center;
+    background-size: 10px;
     object-fit: contain;
-    padding: 19px 0px 0px 22px;
 }
 
 @media screen and (max-width: 620px) {
     .profile__edit-button {
-        padding: 30px 17px 7px 10px;
-        width: 18px;
-        height: 18px;
+        margin: 31px 16px 6px 3px;
+        padding: 11px;
+        background-size: 7px;
+        max-width: 18px;
+        min-height: 18px;
     }
 }
 

@@ -8,8 +8,8 @@ const aboutCloseButton =  document.querySelector(".popup__close-button");
 //инпуты 
 let userName = document.querySelector(".profile__name");
 let userJob = document.querySelector(".profile__description");
-let nameInput = document.querySelector(".form__subtitle_name");
-let jobInput = document.querySelector(".form__subtitle_job");
+let nameInput = document.querySelector(".form__subtitle_text_name");
+let jobInput = document.querySelector(".form__subtitle_text_job");
  
 //открытие попапа 
 function openPopup(popup) {
