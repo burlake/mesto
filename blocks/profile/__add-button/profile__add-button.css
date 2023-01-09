@@ -1,20 +1,43 @@
 .profile__add-button {
-    width: 150px;
-    height: 50px;
-    border: 2px solid #FFFFFF;
-    border-radius: 2px;
-    margin-top: 70px;
+  margin-top: 70px;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  background: url(../../../images/plus.svg);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: center center;
+  background-size: 22px;
+  object-fit: contain;
+}
+
+.profile__add-button:hover {
+  opacity: 0.6;
+  transition: 1s linear 0.5s;
+}
+
+@media screen and (max-width: 320px) {
+  .profile__add-button {
+    width: 282px;
+    margin-top: 31px;
   }
-  
-  .profile__add-button:hover {
-    opacity: .6;
-    transition: 1s linear 0.5s;
+}
+
+.profile__plus {
+  margin: 0 auto;
+  max-width: 22px;
+  min-height: 22px;
+  padding: 13px 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+  .profile__plus {
+    max-width: 17px;
+    min-height: 17px;
+    display: flex;
+    align-items: center;
   }
-  
-  @media screen and (max-width: 320px) {
-    .profile__add-button {
-      width: 282px;
-      margin-top: 31px;
-    }
-  }
-  
+}
