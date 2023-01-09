@@ -18,7 +18,7 @@
 }
 
 .gallery__like:active {
-  background-image: url(../../../images/like-active.svg);
+  background-image: url(../../../images/Union.svg);
   background: #000000;
   overflow: hidden;
   background-size: 100%;
