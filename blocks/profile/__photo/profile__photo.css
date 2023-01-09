@@ -3,8 +3,7 @@
     max-width: 118.5px;
     min-height: 118.5px;
     padding: 0;
-    overflow: hidden;
-    border-radius: 100%;
+    border-radius: 50%;
   }
   
   @media screen and (max-width: 320px) {
