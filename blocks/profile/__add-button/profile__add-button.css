@@ -24,21 +24,3 @@
     background-size: 17px;
   }
 }
-
-.profile__plus {
-  margin: 0 auto;
-  max-width: 22px;
-  min-height: 22px;
-  padding: 13px 0 0 0;
-  display: flex;
-  align-items: center;
-}
-
-@media screen and (max-width: 320px) {
-  .profile__plus {
-    max-width: 17px;
-    min-height: 17px;
-    display: flex;
-    align-items: center;
-  }
-}
