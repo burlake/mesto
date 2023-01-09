@@ -2,6 +2,12 @@
   min-height: 19px;
   max-width: 22px;
   object-fit: contain;
+  background: url(../../../images/like.svg);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: center center;
+  background-size: 22px;
+  object-fit: contain;
 }
 
 .gallery__like:hover {
@@ -10,7 +16,7 @@
 }
 
 .gallery__like:active {
-  background-image: url(./images/like-active.png);
+  background-image: url(../../../images/like-active.svg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
