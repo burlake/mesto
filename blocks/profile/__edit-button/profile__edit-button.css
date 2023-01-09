@@ -17,8 +17,8 @@
         margin: 19px 0px 6px 16px;
         padding: 11px;
         background-size: 7px;
-        width: 18px;
-        height: 18px;
+        max-width: 18px;
+        min-height: 18px;
     }
 }
 
