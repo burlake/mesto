@@ -10,6 +10,7 @@
   background-size: 22px;
   object-fit: contain;
   padding: 11px;
+
 }
 
 .gallery__like:hover {
@@ -22,4 +23,6 @@
   background-size: 100%;
   min-height: 22px;
   opacity: 1;
+  background: black;
+  transition: .5s;
 }
