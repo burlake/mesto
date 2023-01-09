@@ -4,6 +4,12 @@
     min-height: 50px;
     background: #000000;
     border-radius: 2px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
   }
   
   @media screen and (max-width: 320px) {
@@ -12,6 +18,8 @@
       margin-bottom: 0px;
       width: 238px;
       height: 46px;
+      font-size: 14px;
+      line-height: 17px;
     }
   }
   
