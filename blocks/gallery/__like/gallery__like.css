@@ -5,11 +5,12 @@
   border: none;
   background: url(../../../images/like.svg);
   background-repeat: no-repeat;
-  background-origin: content-box;
+  background-origin: border-box;
   background-position: center center;
   background-size: 22px;
   object-fit: contain;
   padding: 11px;
+
 }
 
 .gallery__like:hover {
@@ -18,13 +19,8 @@
 }
 
 .gallery__like:active {
-  background-image: url(../../../images/like-active.svg);
+  background-image: url(../../../images/Union.svg);
   background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-origin: border-box;
-  object-fit: contain;
   min-height: 22px;
-  max-width: 22px;
   opacity: 1;
 }
