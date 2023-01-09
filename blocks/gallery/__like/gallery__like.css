@@ -15,12 +15,11 @@
 
 .gallery__like:hover {
   opacity: 0.5;
-  transition: 1s linear 0.5s transparent;
+  transition: 1s linear;
 }
 
 .gallery__like:active {
   background-image: url(../../../images/Union.svg);
   background-size: 100%;
   min-height: 22px;
-  transition: .5s;
 }
