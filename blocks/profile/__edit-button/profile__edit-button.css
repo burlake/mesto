@@ -1,21 +1,21 @@
 .profile__edit-button {
+    padding: 19px 0px 0px 22px;
     width: 24px;
     height: 24px;
+    border: 1px solid #FFFFFF;
     background: url(../../../images/Pen.svg);
     background-repeat: no-repeat;
     background-origin: content-box;
     background-size: 10px;
     object-fit: contain;
-    padding: 19px 0px 0px 22px;
-    border: 1px solid #FFFFFF;
 }
 
 @media screen and (max-width: 620px) {
     .profile__edit-button {
         background-size: 7px;
-        padding: 30px 17px 7px 10px;
         width: 18px;
         height: 18px;
+        padding: 30px 17px 7px 10px;
     }
 }
 
