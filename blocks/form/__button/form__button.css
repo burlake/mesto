@@ -1,4 +1,11 @@
 .form__button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+
     margin: 22px 0px 37px 0px;
     max-width: 358px;
     min-height: 50px;
