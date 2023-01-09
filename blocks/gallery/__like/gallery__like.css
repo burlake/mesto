@@ -18,7 +18,7 @@
 }
 
 .gallery__like:active {
-  background-image: url(../../../images/Union.svg) transparent;
+  background-image: url(../../../images/Union.svg);
   background-size: 100%;
   min-height: 22px;
   opacity: 1;
