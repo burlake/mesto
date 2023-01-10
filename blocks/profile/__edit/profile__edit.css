@@ -1,3 +1,4 @@
 .profile__edit {
-    
+    display: flex;
+    flex-direction: row;
   }
