@@ -10,16 +10,17 @@
     background-position: center center;
     background-size: 10px;
     object-fit: contain;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 880px) {
     .profile__edit-button {
-        margin: 6px 0px 0px 7px;
-        padding: 11px;
+        margin: 9px 0px 0px 11px;
+        padding: 0;
         background-size: 7px;
-        max-width: 18px;
-        min-height: 18px;
-    }
+        width: 18px;
+        height: 18px;
+}
 }
 
 .profile__edit-button:hover {
