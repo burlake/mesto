@@ -1,8 +1,8 @@
 .profile__edit-button {
-    margin: 19px 0px 6px 16px;
+    margin: 13px 0px 6px 16px;
     padding: 11px;
-    max-width: 24px;
-    min-height: 24px;
+    width: 24px;
+    height: 24px;
     border: 1px solid #FFFFFF;
     background: url(../../../images/Pen.svg);
     background-repeat: no-repeat;
