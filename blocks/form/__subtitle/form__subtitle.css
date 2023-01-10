@@ -1,7 +1,7 @@
 .form__subtitle {
     margin: 0px 0 30px 0;
-    width: 358px;
-    height: 27px;
+    width: 100%;
+    min-height: 27px;
     border: none;
     padding-bottom: 0px;
     font-style: normal;
@@ -11,10 +11,4 @@
     color: #000000;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
-  }
-  
-  @media screen and (max-width: 620px) {
-    .form__subtitle {
-      width: 238px;
-    }
   }
