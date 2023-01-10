@@ -6,7 +6,7 @@
   border-radius: 50%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 880px) {
   .profile__photo {
     max-width: 119.5px;
     min-height: 119.5px;
