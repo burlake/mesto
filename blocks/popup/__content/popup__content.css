@@ -1,13 +1,12 @@
 .popup__content {
     width: 430px;
-    padding: 34px 0px 0px 36px;
+    padding: 34px 36px 37px 36px;;
     display: flex;
     flex-direction: column;
     background: #ffffff;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     box-sizing: border-box;
-    margin: 195px auto;
     position: relative;
   }
 
@@ -15,6 +14,5 @@
     .popup__content {
       max-width: 282px;
       padding: 22px 22px;
-      margin: 123px auto;
     }
   }

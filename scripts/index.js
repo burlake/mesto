@@ -1,6 +1,5 @@
 //попап
 const popup = document.querySelector(".popup");
-//const aboutPopup = document.querySelector(".popup-about");
 //форма
 const formElement = document.querySelector(".form");
 const aboutButton = document.querySelector(".profile__edit-button");
@@ -37,12 +36,8 @@ function handleFormSubmit(event) {
 }
 formElement.addEventListener("submit", handleFormSubmit);
 
-//закрытик по вебинару
-
-//открытие попапа
-//aboutButton.addEventListener("click", (event) => {
-//aboutPopup.classList.add("popup__opened");
-//});
+//закрытие за пределами кнопки 
+//const aboutPopup = document.querySelector(".popup-about");
 //закрытие попапа за пределами кнопки popup__close-button
 //aboutPopup.addEventListener('click', (event) => {
 //event.preventDefault();
