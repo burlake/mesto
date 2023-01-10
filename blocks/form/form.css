@@ -1,9 +1,5 @@
 .form {
-    max-width: 358px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
+    max-width: 358px; 
   }
   
   @media screen and (max-width: 620px) {
