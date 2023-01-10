@@ -3,7 +3,7 @@
   border: none;
   cursor: pointer;
   margin: 22px 0px 0px 0px;
-  max-width: 358px;
+  width: 100%;
   min-height: 50px;
   background: #000000;
   border-radius: 2px;
@@ -19,8 +19,7 @@
   .form__button {
     margin-top: 15px;
     margin-bottom: 0px;
-    width: 238px;
-    height: 46px;
+    min-height: 46px;
     font-size: 14px;
     line-height: 17px;
   }
