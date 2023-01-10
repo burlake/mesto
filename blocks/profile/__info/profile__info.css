@@ -1,6 +1,7 @@
 .profile__info{
     min-width: 336px;
-
+    display: flex;
+    flex-direction: row;
 }
 
 
