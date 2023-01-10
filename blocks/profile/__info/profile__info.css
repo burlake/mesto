@@ -2,6 +2,8 @@
     width: 336px;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 32px;
+    margin-top: 21px;
 }
 
 
