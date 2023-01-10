@@ -10,7 +10,7 @@
   background-size: 22px;
   object-fit: contain;
   padding: 11px;
-
+  cursor: pointer;
 }
 
 .gallery__like:hover {

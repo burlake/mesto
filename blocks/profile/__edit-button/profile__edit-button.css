@@ -10,6 +10,7 @@
     background-position: center center;
     background-size: 10px;
     object-fit: contain;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 880px) {
