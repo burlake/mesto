@@ -5,12 +5,17 @@
   display: flex;
   flex-direction: column;
   border: none;
-  opacity: 0.7;
-  border-bottom: 1px solid #545454;
+  border-bottom: 1px solid 	rgba(84,84,84,0.7);
   max-width: 880px;
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 940px) {
+  .header {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .header {
     padding: 28px 0 31.6px 27px;
     max-width: 100%;
