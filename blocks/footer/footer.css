@@ -10,6 +10,7 @@
     padding-top: 88px;
     padding-right: 24px;
     padding-left: 24px;
+    padding-bottom: 0px;
     min-width: calc((100% - 69px)/2);
   }
 }
