@@ -14,7 +14,7 @@
 
 .gallery__like:hover {
   opacity: 0.5;
-  transition: 1s linear 0.5s;
+  transition: opacity linear 0.5s;
 }
 
 .gallery__like:active {
