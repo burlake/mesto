@@ -1,7 +1,7 @@
 .profile__name {
   margin: 0;
   padding: 0px;
-  max-width: 294px;
+  width: 294px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 800px) {
   .profile__name {
-    max-width: 189px;
+    width: 189px;
     font-size: 27px;
     line-height: 33px;
     text-align: center;
